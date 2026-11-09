@@ -7,9 +7,9 @@ Aplicación web de entrenamiento en español. Mantiene el diseño negro, rojo y 
 - Las cuatro rutinas predefinidas originales, más las dos rutinas DobleJotaGym. Las plantillas están protegidas y se pueden consultar o duplicar.
 - Rutinas personales: creación prioritaria desde texto, previsualización y corrección de días/ejercicios, además de editor manual.
 - Importación y exportación de rutinas, compartir una rutina, duplicar, activar/desactivar y eliminar rutinas personales.
-- Biblioteca de referencia externa de 317 ejercicios, con grupos y subgrupos, correspondencias para las seis rutinas y enlaces a vídeos. La primera carga requiere conexión y después se cachea en el dispositivo.
+- Biblioteca de referencia externa de 317 ejercicios, con nombres de ejercicios, músculos, grupos, subgrupos y material en castellano; correspondencias para las seis rutinas y enlaces a vídeos. La primera carga requiere conexión y después se cachea en el dispositivo.
 - Entrenamiento: series, peso, repeticiones/tiempo, notas, añadir/quitar series y ejercicios, cambiar ejercicio en ventana independiente, reordenar con flechas, guardar y reanudar sesiones.
-- Progreso: gráfica de carga (X) y repeticiones (Y), con datos reales y estimaciones diferenciadas.
+- Progreso: gráfica de carga en kilogramos (X), con marcas cada 5 kg, y repeticiones de 1 a 20 (Y), con datos reales y estimaciones diferenciadas.
 - Descanso inicial de 120 segundos; conserva preferencias manuales.
 - Publicidad QR de Instagram al iniciar el entrenamiento; se elimina al activar GYM LOG PRO.
 - Aviso de privacidad breve y opción de volver a mostrarlo desde Ajustes.

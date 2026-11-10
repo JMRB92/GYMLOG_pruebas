@@ -41,3 +41,8 @@ Para probar la aplicación completa, sirve la carpeta con un servidor estático 
 ## Versión
 
 La numeración se mantiene en **v1.10**.
+
+
+## Base española de ejercicios
+
+La biblioteca de referencia consulta ExerciseGymGifsDB (JahelCuadrado), usando su API en español para nombres, grupos musculares y demostraciones GIF: https://github.com/JahelCuadrado/ExerciseGymGifsDB . Los nombres de las dos rutinas DobleJotaGym se mantienen literalmente desde los PDF proporcionados; la base externa solo alimenta la biblioteca general.

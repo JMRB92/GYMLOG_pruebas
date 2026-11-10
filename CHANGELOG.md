@@ -13,3 +13,10 @@
 - Descanso predeterminado de 120 segundos.
 - Creación de rutinas priorizando la importación desde texto, con previsualización editable y opción de creación manual.
 - Se preserva la base local existente y la importación/exportación de copias de seguridad.
+
+## v1.10 — Corrección de rutinas y nomenclatura española
+- Las dos rutinas DobleJotaGym se reconstruyen literalmente desde los PDF originales, sin modificar nombres ni prescripciones.
+- Las dos aparecen al principio de las plantillas sugeridas.
+- Se elimina la activación automática de la plantilla genérica de cinco días al abrir Inicio.
+- La biblioteca de referencia consulta ExerciseGymGifsDB en español (1323 ejercicios), con nombres, grupos y GIFs de demostración.
+- La etiqueta de los ejercicios dentro de las rutinas conserva exactamente el texto original, aunque exista un nombre de referencia asociado.

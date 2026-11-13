@@ -1,7 +1,7 @@
 [
   {
     "id": "2naoxvgdmw4twqx1",
-    "name": "Plan entrenamiento DobleJotaGym 1",
+    "name": "Plan de entrenamiento — 5 días",
     "isTemplate": true,
     "active": false,
     "days": [
@@ -18,8 +18,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0598"
+            "metric": "reps"
           },
           {
             "id": "m0ue8kuzmw4twqx1",
@@ -30,8 +29,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "drv-hip-raise-bridge"
+            "metric": "reps"
           },
           {
             "id": "gwe39zmmmw4twqx1",
@@ -42,8 +40,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "drv-lever-standing-rear-kick"
+            "metric": "reps"
           },
           {
             "id": "g8f2t62emw4twqx1",
@@ -54,8 +51,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0336"
+            "metric": "reps"
           },
           {
             "id": "oigvj7hvmw4twqx1",
@@ -66,8 +62,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0599"
+            "metric": "reps"
           },
           {
             "id": "n8jjd298mw4twqx1",
@@ -78,8 +73,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0432"
+            "metric": "reps"
           }
         ]
       },
@@ -96,8 +90,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0198"
+            "metric": "reps"
           },
           {
             "id": "x5tq2oglmw4twqx1",
@@ -108,8 +101,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0208"
+            "metric": "reps"
           },
           {
             "id": "3o0eivffmw4twqx1",
@@ -120,8 +112,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0581"
+            "metric": "reps"
           },
           {
             "id": "1nesz3idmw4twqx1",
@@ -132,8 +123,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0602"
+            "metric": "reps"
           },
           {
             "id": "nxr1nislmw4twqx1",
@@ -144,8 +134,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "2407"
+            "metric": "reps"
           },
           {
             "id": "b9g8x9ypmw4twqx1",
@@ -156,8 +145,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0298"
+            "metric": "reps"
           }
         ]
       },
@@ -174,8 +162,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0598"
+            "metric": "reps"
           },
           {
             "id": "v3nlwjq6mw4twqx2",
@@ -186,8 +173,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0585"
+            "metric": "reps"
           },
           {
             "id": "v4f56m8lmw4twqx2",
@@ -198,8 +184,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0336"
+            "metric": "reps"
           },
           {
             "id": "evo3x6mzmw4twqx2",
@@ -210,8 +195,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0743"
+            "metric": "reps"
           },
           {
             "id": "2sjxwf2emw4twqx2",
@@ -222,8 +206,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0743"
+            "metric": "reps"
           }
         ]
       },
@@ -240,8 +223,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0584"
+            "metric": "reps"
           },
           {
             "id": "ksg3o4rcmw4twqx2",
@@ -252,8 +234,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0553"
+            "metric": "reps"
           },
           {
             "id": "nrc1qarzmw4twqx2",
@@ -264,8 +245,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0178"
+            "metric": "reps"
           },
           {
             "id": "ol48ynbzmw4twqx2",
@@ -276,8 +256,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "drv-lever-pec-deck-fly"
+            "metric": "reps"
           },
           {
             "id": "2s5lrqy8mw4twqx2",
@@ -288,8 +267,7 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "1723"
+            "metric": "reps"
           },
           {
             "id": "3k2dvyoimw4twqx2",
@@ -300,96 +278,27 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "1451"
+            "metric": "reps"
           },
           {
             "id": "fj3g64k3mw4twqx2",
             "exerciseId": "wukd3h7xmw4twqx2",
             "name": "Curl de bíceps en polea con barra Z",
             "variant": "",
-            "sets": null,
-            "reps": "",
-            "rest": 120,
-            "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0190"
-          }
-        ]
-      },
-      {
-        "id": "svglo22fmw4twqx2",
-        "name": "Día 5 — Piernas completas",
-        "exercises": [
-          {
-            "id": "18ugldghmw4twqx2",
-            "exerciseId": "xzvhfqavmw4twqx2",
-            "name": "Máquina aductores",
-            "variant": "",
             "sets": 3,
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0598"
-          },
-          {
-            "id": "n4l233iemw4twqx2",
-            "exerciseId": "umx0sgajmw4twqx1",
-            "name": "Máquina femoral sentado",
-            "variant": "",
-            "sets": 3,
-            "reps": "12, 10, 8",
-            "rest": 120,
-            "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0599"
-          },
-          {
-            "id": "4m8bamcgmw4twqx2",
-            "exerciseId": "1dynym3jmw4twqx2",
-            "name": "Máquina patada de glúteo tumbada",
-            "variant": "",
-            "sets": 3,
-            "reps": "12, 10, 8",
-            "rest": 120,
-            "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "drv-lever-standing-rear-kick"
-          },
-          {
-            "id": "5q4ji2comw4twqx2",
-            "exerciseId": "5x84iu0hmw4twqx2",
-            "name": "Máquina extensión de cuádriceps",
-            "variant": "",
-            "sets": 3,
-            "reps": "12, 10, 8",
-            "rest": 120,
-            "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0585"
-          },
-          {
-            "id": "wkmjzap7mw4twqx2",
-            "exerciseId": "ca8jpe73mw4twqx2",
-            "name": "Ejercicio de silla para cuádriceps",
-            "variant": "",
-            "sets": 3,
-            "reps": "1 minuto",
-            "rest": 120,
-            "notes": "aumentar el tiempo progresivamente",
-            "metric": "duration",
-            "referenceExerciseId": "0750"
+            "metric": "reps"
           }
         ]
       }
     ],
-    "createdAt": "2026-11-06T10:25:46.310Z",
-    "sourceNotes": "Calentamiento antes de comenzar el entrenamiento. Descanso: 2 minutos entre series. Después del entrenamiento: 30 minutos de cardio en cinta o bici."
+    "createdAt": "2026-11-06T10:25:46.310Z"
   },
   {
     "id": "v9qglsh2mw4twqx2",
-    "name": "Plan entrenamiento DobleJotaGym 2",
+    "name": "TABLA DE ENTRENAMIENTO",
     "isTemplate": true,
     "active": false,
     "days": [
@@ -406,9 +315,7 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "drv-lever-pec-deck-fly"
+            "metric": "reps"
           },
           {
             "id": "6zhuwvvpmw4twqx2",
@@ -419,9 +326,7 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0025"
+            "metric": "reps"
           },
           {
             "id": "3z5pz7dkmw4twqx2",
@@ -432,9 +337,7 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "1299"
+            "metric": "reps"
           },
           {
             "id": "8gmldl95mw4twqx2",
@@ -445,9 +348,7 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0033"
+            "metric": "reps"
           },
           {
             "id": "4t43i1dfmw4twqx2",
@@ -458,21 +359,18 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "1723"
+            "metric": "reps"
           },
           {
             "id": "f4h1xmezmw4twqx2",
             "exerciseId": "13k9nf2ymw4twqx2",
             "name": "Máquina fondo tríceps",
             "variant": "",
-            "sets": null,
-            "reps": "—",
+            "sets": 4,
+            "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "1451"
+            "metric": "reps"
           }
         ]
       },
@@ -483,15 +381,13 @@
           {
             "id": "4he0fkl1mw4twqx4",
             "exerciseId": "1bez171omw4twqx1",
-            "name": "Jalón",
+            "name": "Jalón al pecho",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0198"
+            "metric": "reps"
           },
           {
             "id": "i9h793a5mw4twqx4",
@@ -502,22 +398,18 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0581"
+            "metric": "reps"
           },
           {
             "id": "9zrek2k0mw4twqx4",
             "exerciseId": "ochvnri7mw4twqx4",
-            "name": "Máquina espalda alta",
+            "name": "Máquina espalda alta / Pulldown",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0581"
+            "metric": "reps"
           },
           {
             "id": "9io3hgicmw4twqx4",
@@ -528,9 +420,7 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "1349"
+            "metric": "reps"
           },
           {
             "id": "8omydwn4mw4twqx4",
@@ -541,9 +431,7 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0190"
+            "metric": "reps"
           },
           {
             "id": "7wnk7k7omw4twqx4",
@@ -554,9 +442,7 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0592"
+            "metric": "reps"
           }
         ]
       },
@@ -573,9 +459,7 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0598"
+            "metric": "reps"
           },
           {
             "id": "wqid2dj6mw4twqx4",
@@ -586,9 +470,7 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0599"
+            "metric": "reps"
           },
           {
             "id": "has0a7hfmw4twqx4",
@@ -599,21 +481,18 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0585"
+            "metric": "reps"
           },
           {
             "id": "kgf893crmw4twqx4",
             "exerciseId": "6cilh8ucmw4twqwy",
-            "name": "Zancadas",
+            "name": "Zancadas en multipower o con mancuernas",
             "variant": "",
-            "sets": null,
+            "sets": 3,
             "reps": "20 pasos",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0336"
+            "metric": "reps"
           },
           {
             "id": "ojzb6z4tmw4twqx4",
@@ -624,9 +503,7 @@
             "reps": "10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "drv-hip-raise-bridge"
+            "metric": "reps"
           },
           {
             "id": "18t0qjtamw4twqx4",
@@ -637,170 +514,145 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0743"
+            "metric": "reps"
           }
         ]
       },
       {
         "id": "6707a51zmw4twqx4",
-        "name": "DÍA 4 — HOMBROS",
+        "name": "DÍA 4 — HOMBROS Y ABDOMEN",
         "exercises": [
           {
             "id": "nhq9pjwlmw4twqx4",
             "exerciseId": "vw6vhxjpmw4twqx4",
-            "name": "Máquina vuelo pájaro",
+            "name": "Press militar en máquina",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0602"
+            "metric": "reps"
           },
           {
             "id": "b97dj8b8mw4twqx4",
             "exerciseId": "uuw9jw4smw4twqx4",
-            "name": "Press militar agarre frontal",
+            "name": "Elevaciones laterales en polea o máquina",
             "variant": "",
             "sets": 4,
-            "reps": "12, 10, 8, 6",
+            "reps": "15, 12, 10, 10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0553"
+            "metric": "reps"
           },
           {
             "id": "sa5t4l02mw4twqx4",
             "exerciseId": "ez4ggc19mw4twqx2",
-            "name": "Hombro frontal polea barra recta",
+            "name": "Pájaro / Deltoides posterior en máquina de aperturas",
             "variant": "",
             "sets": 4,
-            "reps": "12, 10, 8, 6",
+            "reps": "15, 12, 10, 10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0178"
+            "metric": "reps"
           },
           {
             "id": "ketcphvpmw4twqx5",
             "exerciseId": "bibu6y94mw4twqx5",
-            "name": "Máquina asistida hombro trasero",
+            "name": "Encogimientos de hombros en máquina / multipower",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0602"
+            "metric": "reps"
           },
           {
             "id": "4o1ighmrmw4twqx5",
             "exerciseId": "kgu8q1xemw4twqx5",
-            "name": "Vuelo pájaro mancuerna",
+            "name": "Crunch abdominal en máquina / polea alta",
             "variant": "",
             "sets": 4,
-            "reps": "12, 10, 8, 6",
+            "reps": "15, 12, 10, 10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0326"
+            "metric": "reps"
+          },
+          {
+            "id": "2691f27e9434",
+            "exerciseId": "custom-912258f9",
+            "name": "Elevaciones de piernas colgado o en torre",
+            "variant": "",
+            "sets": 3,
+            "reps": "al fallo técnico",
+            "rest": 120,
+            "notes": "",
+            "metric": "reps"
           }
         ]
       },
       {
         "id": "h9snusggmw4twqx5",
-        "name": "DÍA 5 — TREN SUPERIOR — ESPALDA, PECHO Y BRAZOS",
+        "name": "DÍA 5 — PIERNA (ÉNFASIS GLÚTEOS Y CADENA POSTERIOR) + BRAZOS EXTRA",
         "exercises": [
           {
             "id": "cezu9xqomw4twqx5",
             "exerciseId": "bgrlczdimw4twqx5",
-            "name": "Jalón agarre estrecho",
+            "name": "Prensa inclinada / pendular (pies altos)",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0974"
+            "metric": "reps"
           },
           {
             "id": "7m8q0mk8mw4twqx5",
             "exerciseId": "tisqw3ltmw4twqx5",
-            "name": "Máquina \"T\" agarre superior",
+            "name": "Peso muerto rumano en multipower o máquina",
             "variant": "",
             "sets": 4,
-            "reps": "12, 10, 8, 6",
+            "reps": "10, 8, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "drv-lever-t-bar-row"
+            "metric": "reps"
           },
           {
             "id": "bxy6a07fmw4twqx5",
             "exerciseId": "euh2yu8jmw4twqx5",
-            "name": "Press plano",
+            "name": "Máquina abductores / Glúteos",
             "variant": "",
             "sets": 4,
-            "reps": "12, 10, 8, 6",
+            "reps": "15, 12, 10, 10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0025"
+            "metric": "reps"
           },
           {
             "id": "d0sk9a4ymw4twqx5",
             "exerciseId": "0is23kvcmw4twqx5",
-            "name": "Press superior",
+            "name": "Elevación de talones en máquina (gemelos)",
             "variant": "",
             "sets": 4,
-            "reps": "12, 10, 8, 6",
+            "reps": "15, 12, 10, 10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "0047"
+            "metric": "reps"
           },
           {
             "id": "aclikwxcmw4twqx5",
             "exerciseId": "oftrnoeqmw4twqx5",
-            "name": "Tríceps polea barra Z",
+            "name": "Super-serie Curl Martillo en polea + Extensión tríceps cuerda",
             "variant": "",
-            "sets": 4,
-            "reps": "12, 10, 8, 6",
+            "sets": 3,
+            "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "1723"
-          },
-          {
-            "id": "pp5lqa8emw4twqx5",
-            "exerciseId": "zek3hdhrmw4twqx5",
-            "name": "Bíceps barra Z",
-            "variant": "",
-            "sets": 4,
-            "reps": "12, 10, 8, 6",
-            "rest": 120,
-            "notes": "",
-            "metric": "reps",
-            "rir": "RIR",
-            "referenceExerciseId": "2407"
+            "metric": "reps"
           }
         ]
       }
     ],
-    "createdAt": "2026-11-06T10:25:46.313Z",
-    "sourceNotes": "Mantener el RIR indicado según la planificación original."
+    "createdAt": "2026-11-06T10:25:46.313Z"
   },
   {
     "id": "upi9209hmw4twqwy",
@@ -1599,25 +1451,25 @@
   },
   {
     "id": "saaf23izmw4twqx1",
-    "name": "Rutina híbrida de 5 días",
+    "name": "Rutina híbrida — 5 días",
     "isTemplate": true,
     "active": false,
+    "proOnly": true,
     "days": [
       {
         "id": "6dwyqrh9mw4twqx1",
-        "name": "Día 1 · Pierna A",
+        "name": "LUNES — PIERNA A",
         "exercises": [
           {
             "id": "5osnbcopmw4twqx1",
             "exerciseId": "mqaxvqzxmw4twqwy",
-            "name": "Aductor en máquina, cierre",
+            "name": "Aductor (cierre)",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0598"
+            "metric": "reps"
           },
           {
             "id": "bvqihxmhmw4twqx1",
@@ -1628,8 +1480,7 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0585"
+            "metric": "reps"
           },
           {
             "id": "or8tpu6umw4twqx1",
@@ -1640,8 +1491,7 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0336"
+            "metric": "reps"
           },
           {
             "id": "7tpcjgd4mw4twqx1",
@@ -1652,20 +1502,18 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "2611"
+            "metric": "reps"
           },
           {
             "id": "afm0ehn7mw4twqx1",
             "exerciseId": "emqs5d9omw4twqwy",
-            "name": "Gemelos en máquina",
+            "name": "Gemelos",
             "variant": "",
             "sets": 4,
             "reps": "15–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0605"
+            "metric": "reps"
           },
           {
             "id": "vqhnqduhmw4twqx1",
@@ -1676,104 +1524,96 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0743"
+            "metric": "reps"
           }
         ]
       },
       {
         "id": "wuy1ea8rmw4twqx1",
-        "name": "Día 2 · Pecho, hombros y tríceps",
+        "name": "MARTES — PECHO + HOMBRO + TRÍCEPS",
         "exercises": [
           {
             "id": "b0cm0etjmw4twqx1",
             "exerciseId": "cz224h2tmw4twqwy",
-            "name": "Press inclinado con mancuernas",
+            "name": "Press inclinado",
             "variant": "",
             "sets": 4,
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0314"
+            "metric": "reps"
           },
           {
             "id": "wkxajpvgmw4twqx1",
             "exerciseId": "4w833wf1mw4twqwy",
-            "name": "Press de banca plano con barra",
+            "name": "Press banca plano",
             "variant": "",
             "sets": 3,
             "reps": "6–10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0025"
+            "metric": "reps"
           },
           {
             "id": "ejquj9y6mw4twqx1",
             "exerciseId": "oti2j723mw4twqwy",
-            "name": "Aperturas en polea",
+            "name": "Aperturas",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "1269"
+            "metric": "reps"
           },
           {
             "id": "g67nfdf3mw4twqx1",
             "exerciseId": "umg8aup8mw4twqwy",
-            "name": "Press de pecho en polea baja",
+            "name": "Press pecho polea baja",
             "variant": "",
             "sets": 3,
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "1269"
+            "metric": "reps"
           },
           {
             "id": "hedco67xmw4twqx1",
             "exerciseId": "coopdnvamw4twqwy",
-            "name": "Elevaciones laterales en polea",
+            "name": "Elevaciones laterales",
             "variant": "",
             "sets": 4,
             "reps": "12–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0178"
+            "metric": "reps"
           },
           {
             "id": "yors5w0bmw4twqx1",
             "exerciseId": "oczrno3smw4twqwy",
-            "name": "Extensión de tríceps en polea",
+            "name": "Tríceps en polea",
             "variant": "",
             "sets": 3,
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "1723"
+            "metric": "reps"
           },
           {
             "id": "n9ccll98mw4twqx1",
             "exerciseId": "r21qkcs5mw4twqwy",
-            "name": "Extensión de tríceps por encima de la cabeza en polea",
+            "name": "Extensión tríceps sobre cabeza",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0194"
+            "metric": "reps"
           }
         ]
       },
       {
         "id": "96zl8a46mw4twqx1",
-        "name": "Día 3 · Espalda y bíceps",
+        "name": "MIÉRCOLES — ESPALDA + BÍCEPS",
         "exercises": [
           {
             "id": "p6h335m5mw4twqx1",
@@ -1784,44 +1624,40 @@
             "reps": "6–10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0198"
+            "metric": "reps"
           },
           {
             "id": "8uxw5zk0mw4twqx1",
             "exerciseId": "Remo bajo en polea",
-            "name": "Remo bajo en polea",
+            "name": "Remo polea baja",
             "variant": "",
             "sets": 4,
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0208"
+            "metric": "reps"
           },
           {
             "id": "rmj6e5rimw4twqx1",
             "exerciseId": "640a5b0fmw4twqwy",
-            "name": "Remo unilateral en polea",
+            "name": "Remo bajo unilateral",
             "variant": "",
             "sets": 3,
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0208"
+            "metric": "reps"
           },
           {
             "id": "tzie6rmnmw4twqx1",
             "exerciseId": "juel6ipymw4twqwy",
-            "name": "Pullover con cuerda",
+            "name": "Pullover cuerda",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0238"
+            "metric": "reps"
           },
           {
             "id": "yvzchiosmw4twqx1",
@@ -1832,62 +1668,57 @@
             "reps": "12–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0203"
+            "metric": "reps"
           },
           {
             "id": "ijbx6ywrmw4twqx1",
             "exerciseId": "cconw6rfmw4twqwy",
-            "name": "Reverse fly en máquina",
+            "name": "Reverse fly",
             "variant": "",
             "sets": 2,
             "reps": "12–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0602"
+            "metric": "reps"
           },
           {
             "id": "usgizprtmw4twqx1",
             "exerciseId": "bcv5uzttmw4twqwy",
-            "name": "Curl en polea",
+            "name": "Curl bíceps",
             "variant": "",
             "sets": 3,
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0190"
+            "metric": "reps"
           },
           {
             "id": "g80e3jm5mw4twqx1",
             "exerciseId": "epyiu9l3mw4twqwy",
-            "name": "Curl inclinado con mancuernas",
+            "name": "Curl bíceps inclinado",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0318"
+            "metric": "reps"
           }
         ]
       },
       {
         "id": "q5ukxyrhmw4twqx1",
-        "name": "Día 4 · Pierna B y extras",
+        "name": "JUEVES — PIERNA B + EXTRAS",
         "exercises": [
           {
             "id": "auwk3kx6mw4twqx1",
             "exerciseId": "8htnbq4umw4twqwy",
-            "name": "Abductor en máquina, apertura",
+            "name": "Abductor (apertura)",
             "variant": "",
             "sets": 3,
             "reps": "12–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0597"
+            "metric": "reps"
           },
           {
             "id": "jw0r4gaxmw4twqx1",
@@ -1898,20 +1729,18 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "drv-hip-raise-bridge"
+            "metric": "reps"
           },
           {
             "id": "ahp679x4mw4twqx1",
             "exerciseId": "1mcg2dcjmw4twqwy",
-            "name": "Curl femoral sentado",
+            "name": "Femoral sentado",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0599"
+            "metric": "reps"
           },
           {
             "id": "xy411dnvmw4twqx1",
@@ -1922,32 +1751,29 @@
             "reps": "8–10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0432"
+            "metric": "reps"
           },
           {
             "id": "u7s3iw9tmw4twqx1",
             "exerciseId": "pkviygesmw4twqwy",
-            "name": "Curl femoral tumbado",
+            "name": "Femoral tumbado",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0586"
+            "metric": "reps"
           },
           {
             "id": "61nzdngzmw4twqx1",
             "exerciseId": "i9t8lbrimw4twqwy",
-            "name": "Extensiones lumbares con lastre",
+            "name": "Lumbares con lastre",
             "variant": "",
             "sets": 2,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0489"
+            "metric": "reps"
           },
           {
             "id": "jbk37i9omw4twqx1",
@@ -1958,8 +1784,7 @@
             "reps": "8–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0796"
+            "metric": "reps"
           },
           {
             "id": "ym8xqrhhmw4twqx1",
@@ -1970,62 +1795,57 @@
             "reps": "10–15 por lado",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0230"
+            "metric": "reps"
           }
         ]
       },
       {
         "id": "umau7109mw4twqx1",
-        "name": "Día 5 · Pecho y espalda",
+        "name": "SÁBADO — PECHO + ESPALDA",
         "exercises": [
           {
             "id": "euzb1ungmw4twqx1",
             "exerciseId": "cz224h2tmw4twqwy",
-            "name": "Press inclinado con mancuernas",
+            "name": "Press inclinado",
             "variant": "",
             "sets": 3,
             "reps": "6–10",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0314"
+            "metric": "reps"
           },
           {
             "id": "l49p4xuxmw4twqx1",
             "exerciseId": "oti2j723mw4twqwy",
-            "name": "Aperturas en polea",
+            "name": "Aperturas",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "1269"
+            "metric": "reps"
           },
           {
             "id": "w52e4ywsmw4twqx1",
             "exerciseId": "Jalón unilateral en polea",
-            "name": "Jalón unilateral en polea",
+            "name": "Jalón unilateral",
             "variant": "",
             "sets": 3,
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "2616"
+            "metric": "reps"
           },
           {
             "id": "4mjtwznfmw4twqx1",
             "exerciseId": "usmqoi3jmw4twqwy",
-            "name": "Remo con pecho apoyado",
+            "name": "Remo con apoyo de pecho",
             "variant": "",
             "sets": 3,
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "1330"
+            "metric": "reps"
           },
           {
             "id": "40s9t10emw4twqx1",
@@ -2036,44 +1856,29 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0203"
+            "metric": "reps"
           },
           {
             "id": "liepwjk7mw4twqx1",
             "exerciseId": "coopdnvamw4twqwy",
-            "name": "Elevaciones laterales en polea",
+            "name": "Elevaciones laterales",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0178"
+            "metric": "reps"
           },
           {
             "id": "76euh6dnmw4twqx1",
             "exerciseId": "bcv5uzttmw4twqwy",
-            "name": "Curl en polea",
+            "name": "Bíceps / Tríceps alternados",
             "variant": "",
             "sets": 3,
             "reps": "15–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "0190"
-          },
-          {
-            "id": "3bqqlcdrmw4twqx1",
-            "exerciseId": "oczrno3smw4twqwy",
-            "name": "Extensión de tríceps en polea",
-            "variant": "",
-            "sets": 3,
-            "reps": "15–20",
-            "rest": 120,
-            "notes": "",
-            "metric": "reps",
-            "referenceExerciseId": "1723"
+            "metric": "reps"
           }
         ]
       }

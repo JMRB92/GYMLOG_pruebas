@@ -1,7 +1,7 @@
 # Datos editables de GYM LOG
 
-`routines.json` contiene las seis rutinas iniciales (las cuatro originales y las dos DobleJotaGym). En GitHub Pages, la aplicación sincroniza las plantillas protegidas desde este archivo. Los cambios no sustituyen rutinas personalizadas ni el historial.
+`routines.json` contiene las seis plantillas. Las dos rutinas principales conservan literalmente los nombres, días, ejercicios, orden, series y repeticiones definidos para ellas. La rutina híbrida está marcada como `proOnly: true`: sin GYM LOG PRO se oculta, pero sus datos y el historial permanecen guardados. La aplicación sincroniza estas plantillas sin sobrescribir rutinas personales.
 
-La biblioteca de referencia contiene 317 ejercicios. Se carga desde el repositorio público de referencia y se almacena en caché local para reducir descargas. Las rutinas conservan sus nombres originales y guardan una correspondencia (`referenceExerciseId`) con el ejercicio de referencia.
+La biblioteca de referencia se carga desde `JahelCuadrado/ExerciseGymGifsDB` en castellano (el proyecto declara 1.323 ejercicios). La app conserva separados los nombres visibles de las rutinas y los nombres de la biblioteca. La correspondencia con ejercicios de referencia se usa únicamente para enlazar demostraciones.
 
-Los vídeos se abren como enlaces externos. La licencia de los metadatos/código no acredita por sí sola los derechos de redistribución de los vídeos; por eso este paquete no los copia ni los aloja.
+Las demostraciones se enlazan externamente; los GIF no se copian ni se alojan en este paquete. El repositorio de referencia advierte que no posee los derechos de autor de esos medios.

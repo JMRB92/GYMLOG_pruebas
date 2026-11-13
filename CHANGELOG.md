@@ -1,3 +1,11 @@
+## v1.11 — 11/11/2026
+
+- Rutinas oficiales separadas del catálogo de ejercicios y corregidas conforme a los textos originales.
+- Rutina híbrida protegida por GYM LOG PRO, conservando sus datos al ocultarse.
+- Selector de sustitución por grupo muscular y búsqueda por nombre.
+- Iconos PWA propios, manifest actualizado y service worker.
+- Sin selección automática de rutinas al entrar en Inicio.
+
 # Registro de cambios GYM LOG
 
 ## v1.10

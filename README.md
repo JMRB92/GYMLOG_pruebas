@@ -1,48 +1,28 @@
-# GYM LOG Web · v1.10
+# GYM LOG v1.11
 
-Aplicación web de entrenamiento en español. Mantiene el diseño negro, rojo y amarillo y las funciones existentes de registro de rutinas y entrenamientos. No requiere cuenta ni servidor de datos: la información del usuario se guarda en el almacenamiento local del navegador.
+Aplicación web de seguimiento de rutinas y entrenamientos. Los datos se guardan localmente en el navegador.
 
-## Funciones
+## Cambios de v1.11
+- Rutinas oficiales reconstruidas a partir de las especificaciones originales: nombres, días, ejercicios, orden, series y repeticiones independientes de la biblioteca.
+- Rutina híbrida marcada como exclusiva de GYM LOG PRO. Al desactivar PRO se oculta, sin borrar la rutina ni el historial.
+- Selector «Cambiar ejercicio» con filtro por grupo muscular y búsqueda por nombre; muestra también el equipamiento.
+- Catálogo de referencia en castellano conectado a ExerciseGymGifsDB (1.323 ejercicios declarados por el proyecto), sin copiar los GIF al paquete. Los nombres originales de las rutinas no se sustituyen por los del catálogo.
+- Iconos de instalación propios (192, 512 y maskable), icono Apple y favicon.
+- Manifest y service worker para instalación y caché de la aplicación en navegadores compatibles.
+- Migración de plantillas: se desactivan las plantillas preseleccionadas para que Inicio no fije ninguna automáticamente.
 
-- Las cuatro rutinas predefinidas originales, más las dos rutinas DobleJotaGym. Las plantillas están protegidas y se pueden consultar o duplicar.
-- Rutinas personales: creación prioritaria desde texto, previsualización y corrección de días/ejercicios, además de editor manual.
-- Importación y exportación de rutinas, compartir una rutina, duplicar, activar/desactivar y eliminar rutinas personales.
-- Biblioteca de referencia externa de 317 ejercicios, con nombres de ejercicios, músculos, grupos, subgrupos y material en castellano; correspondencias para las seis rutinas y enlaces a vídeos. La primera carga requiere conexión y después se cachea en el dispositivo.
-- Entrenamiento: series, peso, repeticiones/tiempo, notas, añadir/quitar series y ejercicios, cambiar ejercicio en ventana independiente, reordenar con flechas, guardar y reanudar sesiones.
-- Progreso: gráfica de carga en kilogramos (X), con marcas cada 5 kg, y repeticiones de 1 a 20 (Y), con datos reales y estimaciones diferenciadas.
-- Descanso inicial de 120 segundos; conserva preferencias manuales.
-- Publicidad QR de Instagram al iniciar el entrenamiento; se elimina al activar GYM LOG PRO.
-- Aviso de privacidad breve y opción de volver a mostrarlo desde Ajustes.
-- Historial, calendario, copias de seguridad, restauración y exportación.
+## Archivos
+- `index.html`: aplicación.
+- `data/routines.json`: rutinas oficiales editables.
+- `config/pro-config.json`: contraseña local de GYM LOG PRO.
+- `manifest.webmanifest`, `sw.js` e iconos: instalación PWA.
+- `GYM_LOG_v1.11_prueba.html`: versión independiente de prueba incluida en el ZIP.
 
-## Publicar en GitHub Pages
+## Instalación
+Publica el contenido del ZIP en GitHub Pages o en un servidor HTTPS. Abre la web desde Chrome/Edge en Android y usa «Instalar aplicación» o «Añadir a pantalla de inicio». En iPhone/iPad, usa Compartir > Añadir a pantalla de inicio. La instalación PWA necesita HTTPS; abrir el HTML de prueba como archivo local no instala la PWA.
 
-1. Descarga una copia de seguridad de la versión actual desde Ajustes.
-2. Descomprime este ZIP.
-3. Sube todo el contenido de la carpeta a la raíz del repositorio `JMRB92/GYMLOG`, de modo que `index.html`, `data/`, `config/` y las imágenes queden en la raíz.
-4. Espera a que termine GitHub Pages y abre https://jmrb92.github.io/GYMLOG/.
+## Biblioteca y medios
+La biblioteca utiliza metadatos en español de `JahelCuadrado/ExerciseGymGifsDB`, consultados desde su CDN público. Los GIF/demostraciones se enlazan externamente y no se copian dentro del paquete. El propio repositorio advierte que no posee los derechos de autor de esos medios; por tanto, la app no redistribuye dichos archivos.
 
-No subas copias de seguridad personales al repositorio público.
-
-## Datos y privacidad
-
-Los datos de usuario se guardan en `localStorage`. No hay cuenta ni sincronización automática entre dispositivos. Borrar los datos del sitio o del navegador puede eliminar rutinas e historial; descarga copias de seguridad periódicas.
-
-GYM LOG PRO utiliza una contraseña local configurable en `config/pro-config.json`. Es un desbloqueo local sencillo, no una protección de seguridad: los archivos de una web estática son públicos y pueden inspeccionarse.
-
-Los vídeos se abren desde el alojamiento externo de referencia; no se descargan ni se redistribuyen dentro de este paquete. La licencia del código/metadatos no implica por sí sola derechos sobre los vídeos.
-
-No se incorpora service worker; no se garantiza funcionamiento sin conexión ni alarmas con el navegador cerrado.
-
-## Prueba local
-
-Para probar la aplicación completa, sirve la carpeta con un servidor estático (por ejemplo, `python -m http.server 8000`) y abre `http://localhost:8000`. El HTML independiente permite probar la interfaz y guarda sus datos separados de la URL publicada; la carga de la biblioteca externa puede depender de las restricciones de origen del navegador.
-
-## Versión
-
-La numeración se mantiene en **v1.10**.
-
-
-## Base española de ejercicios
-
-La biblioteca de referencia consulta ExerciseGymGifsDB (JahelCuadrado), usando su API en español para nombres, grupos musculares y demostraciones GIF: https://github.com/JahelCuadrado/ExerciseGymGifsDB . Los nombres de las dos rutinas DobleJotaGym se mantienen literalmente desde los PDF proporcionados; la base externa solo alimenta la biblioteca general.
+## Privacidad y datos
+No hay cuenta ni sincronización automática. Borrar los datos del navegador puede eliminar los registros. Exporta copias de seguridad periódicas.

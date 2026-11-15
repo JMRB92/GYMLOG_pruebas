@@ -1,3 +1,16 @@
+# Cambios de GYM LOG
+
+## v1.14 — Consolidación de rutinas, ejercicios y calculadoras
+
+- 235 ejercicios (143 anteriores + 92 variantes nuevas) en Excel editable y copia alternativa JSON sincronizada.
+- Selección de fichas por referencia explícita, no por coincidencia de nombre ambiguo. Antiguas rutinas personales y sesiones mantenidas.
+- Las tres rutinas prioritarias revisadas: 29 / 29 / 37 ejercicios; primer plan corregido de cuatro a cinco días.
+- Las tres plantillas restantes vinculadas al nuevo catálogo manteniendo su distribución previa.
+- RIR, series variables, duraciones y ausencia de esquema según documentos; híbrida PRO sigue oculta sin desbloqueo.
+- Eliminadas referencias a fichas externas de ejercicios; modalidades de imagen y vídeo separadas.
+- IMC con campo de edad y explicación de los umbrales de adultos; para menores de 20 años no se aplica la clasificación de adultos. TMB y GET con desglose claro.
+- Cache de la PWA actualizado.
+
 # Registro de cambios
 
 ## v1.13 — Fichas de ejercicio y calculadoras

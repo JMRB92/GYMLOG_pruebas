@@ -1,34 +1,40 @@
-# GYM LOG v1.12 — Datos independientes
+# Datos editables de GYM LOG v1.14
 
-## Catálogo Excel: `data/ejercicios.xlsx`
+## EJERCICIOS.xlsx
 
-La aplicación abre automáticamente **la primera hoja**, `CATÁLOGO 143`, del Excel al iniciarse en GitHub Pages.
+Hoja `EJERCICIOS`, con **235** fichas. Columnas:
 
-- **A**: Nº/ID (mantener estable para conservar asociaciones y progresos).
-- **B**: Grupo muscular.
-- **C**: Ejercicio, nombre visible **literal**, sin traducciones ni renombrados automáticos.
-- **D**: URL directa de la imagen de Simply Fitness.
-- **E**: URL de ficha de Simply Fitness.
-- **F**: URL directa del GIF/vídeo. Ahora sigue vacía porque su asignación está pendiente de comprobación.
-- **G**: Revisión de imagen (CORRECTA, INCORRECTA, DUDOSA, etc.).
-- **H**: Enlace de imagen corregida, si corresponde (tiene prioridad sobre D).
-- **I / J**: Notas y aviso de revisión; no cambian nombres ni vídeos.
+A. ID (estable, p. ej. `excel-142`)
+B. Número de orden
+C. Grupo muscular
+D. Nombre español **literal** del ejercicio
+E. Equipamiento
+F. Imagen inicial (URL HTTPS)
+G. Imagen final u otra posición (URL HTTPS)
+H. Vídeo / GIF (URL HTTPS; sin rellenar cuando no existe un vídeo autorizado)
+I. Alias (separados por el carácter `|`)
+J. Instrucciones
+K. Fuente y condiciones de licencia
+L. Estado de revisión
+M. Notas
 
-**Editar catálogo:** descarga `data/ejercicios.xlsx`, modifica las filas, guarda el archivo `.xlsx` y sustituye únicamente ese mismo archivo en GitHub, manteniendo la ruta. Al abrir o recargar la app se lee la versión actualizada. No es necesario tocar `index.html`, el manifest ni reinstalar la PWA. La app no modifica el Excel que está en GitHub desde el teléfono. Si introduces un nuevo ejercicio, dale un ID nuevo en A. El navegador necesita conexión para acceder a imágenes externas.
+La app reconoce este esquema y el del Excel de las versiones antiguas. El archivo es editable sin modificar el código de la app. **No cambies los identificadores existentes.**
 
-En «Biblioteca» y «Ajustes» existe «Probar otro Excel» para ver un archivo local sin publicarlo (solo hasta recargar la página). La copia alternativa `data/exercises-fallback.json` sirve para navegadores que no admiten descompresión XLSX o si el Excel está temporalmente inaccesible. Si se utiliza la copia alternativa se avisa en la aplicación; para mantenerla sincronizada en navegadores antiguos, hay que regenerarla manualmente.
+No se incluye la URL de la ficha de Simply Fitness. Algunas imágenes heredadas enlazan directamente a recursos externos sin licencia comercial comprobada: revisar antes de monetizar/distribuir imágenes.
 
-Los ejercicios personalizados no desaparecen y permanecen en el almacenamiento de ese dispositivo. Las rutinas e historial anteriores conservan sus nombres.
+## RUTINAS.json
 
-## Rutinas: `data/routines.json`
+Seis plantillas protegidas. `name` es el nombre **exacto** de ejercicio de la rutina; `catalogName` y `referenceExerciseId` sirven para relacionarlo con el catálogo. No cambies `id` de plantillas o sesiones antiguas si quieres preservar la asociación con el historial local.
 
-Las **seis rutinas oficiales** se cargan exclusivamente desde este archivo JSON. Edita el nombre, los días, los ejercicios y las series/repeticiones aquí sin tocar el código. Mantén `id` y `name` de cada rutina existente si no quieres duplicarla al actualizar. `proOnly: true` mantiene la rutina híbrida oculta para usuarios sin PRO y conserva todo el progreso. La aplicación nunca modifica las rutinas personales al actualizar las plantillas.
+- Plan de entrenamiento — 5 días: 5 días, 29 posiciones.
+- TABLA DE ENTRENAMIENTO: 5 días, 29 posiciones.
+- Full Body de 2 días: 2 días, 16 posiciones.
+- Hipertrofia de 5 días: 5 días, 24 posiciones.
+- Push Pull Legs de 3 días: 3 días, 19 posiciones.
+- Rutina híbrida — 5 días: 5 días, 37 posiciones; `proOnly:true`.
 
-**Publicación:** sube solamente `data/routines.json` actualizado a GitHub para modificar las rutinas oficiales. Si el JSON es inválido, se conservarán las plantillas que ya estaban guardadas en el dispositivo y se avisará en la consola del navegador.
+Los ejercicios sin esquema indicado en el PDF se guardan con `sets:0`, `reps:""`; el usuario puede añadir series durante la sesión. La rutina híbrida contiene dos ejercicios finales (bíceps y tríceps) con su elección de movimiento todavía pendiente.
 
-## Seguridad y copias
+## exercises-fallback.json
 
-Los entrenamientos, rutinas personales, fotos del usuario y progresos permanecen en almacenamiento local. Antes de sustituir una versión de la aplicación, exporta una copia desde Ajustes. Borrar datos del sitio puede borrar el historial. El desbloqueo PRO es local y no ofrece protección criptográfica.
-
-## Fichas de ejercicio en v1.13
-Al tocar un nombre en Biblioteca o en un entrenamiento se abre una ficha. El enlace de imagen procede de la columna de imagen del Excel. La animación / vídeo procede **únicamente** de la columna de vídeo del mismo Excel; si está vacía, se muestra «Vídeo pendiente». Las URL pueden ser GIF (`.gif`), vídeo `.mp4` o una página externa. Los nombres de las rutinas no se modifican automáticamente.
+Instantánea del catálogo utilizada solamente cuando la carga del Excel falla. Se entrega sincronizada con esta publicación; si editas el Excel tendrás que sincronizar el fallback para mantener esa protección.

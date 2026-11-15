@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#ffcc00"><meta name="description" content="GYM LOG: registra tus entrenamientos, rutinas, series, cargas y progreso de forma local."><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="GYM LOG"><title>GYM LOG v1.13</title>
+<meta name="theme-color" content="#ffcc00"><meta name="description" content="GYM LOG: registra tus entrenamientos, rutinas, series, cargas y progreso de forma local."><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="GYM LOG"><title>GYM LOG v1.14</title>
 <style>
 :root{
  --accent:#ffcc00;--accent2:#fff1a6;--accent-dark:#e31b23;
@@ -129,7 +129,7 @@ a{color:#a30e16}
 .modal-backdrop{position:fixed;inset:0;background:#000b;z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px}.modal-panel{background:#fff;color:#171717;border-radius:18px;width:min(560px,100%);max-height:88vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 70px #0008}.modal-head{padding:16px 18px;border-bottom:1px solid #ddd;font-weight:900;font-size:19px}.modal-scroll{padding:16px 18px;overflow:auto;line-height:1.5}.modal-actions{padding:12px 16px;display:grid;gap:8px;border-top:1px solid #ddd}.modal-actions button{width:100%}.ad-qr{display:block;width:min(100%,390px);max-height:52vh;object-fit:contain;margin:8px auto;border-radius:10px}.ad-follow{font-weight:900;text-align:center;font-size:22px;color:#d83d75;margin:6px 0}.exercise-link{color:inherit;text-decoration:underline;text-decoration-color:var(--yellow);text-decoration-thickness:2px;text-underline-offset:3px}.reorder{display:flex;gap:5px}.reorder button{padding:6px 9px}.ref-video{font-size:12px;margin-left:5px}.chart-wrap{width:100%;overflow:hidden}.readonly-day{border-top:1px solid var(--line);padding:10px 0}.readonly-day h4{margin:0 0 6px}.privacy-copy{max-height:190px;overflow:auto;padding:0 2px}.ad-qr{cursor:pointer}.pro-active{background:#e8f8eb;border:1px solid #9bd3a5;padding:9px;border-radius:9px;color:#14532d;font-weight:800}
 .exercise-cover{width:108px;height:94px;object-fit:contain;background:#f8f8f8;border:1px solid #e7e7e7;border-radius:10px;flex-shrink:0}.exercise-inline-image{width:64px;height:64px;object-fit:contain;background:#fff;border:1px solid #e7e7e7;border-radius:8px;float:left;margin:1px 12px 7px 0}.media-links{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}.media-links a{color:#a71919;text-decoration:underline}@media(max-width:520px){.exercise-cover{width:80px;height:78px}}
 
-/* v1.13: siete secciones, accesibles también en pantallas estrechas */
+/* v1.14: siete secciones, accesibles también en pantallas estrechas */
 .nav{overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;justify-content:safe center}
 .nav button{min-width:64px;max-width:140px;flex:1 0 auto;white-space:nowrap}
 @media(max-width:600px){.nav{overflow-x:hidden;justify-content:space-between;gap:0;padding:6px 2px calc(6px + env(safe-area-inset-bottom))}.nav button{flex:1 1 0;min-width:0;max-width:none;font-size:clamp(8px,2.2vw,10px);padding:6px 0}.nav button[data-page="calculators"]{flex:1.25 1 0}.nav .ico{font-size:18px}.app{padding-bottom:100px}.version-tag{bottom:88px}}
@@ -153,9 +153,10 @@ a{color:#a30e16}
 .calc-result .muted{color:#ddd}
 .calc-hint{font-size:12px;color:#777}
 @media(max-width:500px){.calc-tab{font-size:12px;padding:8px}.calc-tab small{font-size:10px}.calc-tab.selected{padding:7px}}
+.calc-explain{margin-top:12px;padding:13px;border-radius:12px;background:#fffdf5;border:1px solid #e5dec7;line-height:1.55;text-align:left;color:#232323;font-size:13px}.calc-explain p{margin:8px 0}.calc-scale{display:grid;gap:5px;margin:8px 0}.calc-scale span{font-size:12px;background:#f2f2f2;padding:7px 9px;border-radius:7px}.calc-scale .calc-current{background:#fff0a3;border:1px solid #dfb91a;font-weight:750}.calc-result .calc-number{font-variant-numeric:tabular-nums}
 </style></head>
 <body><div class="app">
-<header class="top"><div class="brandlockup"><img class="brand-logo" src="gym-log-logo.png" alt="Logotipo GYM LOG"><div class="brandtext"><div class="brand">GYM <span>LOG</span></div></div></div><div class="row top-actions"><button class="ghost small" data-action="share-link">Compartir Gymlog</button><button id="quickResume" class="secondary hidden">Reanudar</button></div><small id="topSub" class="top-tagline">Tu entrenamiento, sin complicaciones</small></header><div class="version-tag" aria-label="Versión 1.13">v1.13</div>
+<header class="top"><div class="brandlockup"><img class="brand-logo" src="gym-log-logo.png" alt="Logotipo GYM LOG"><div class="brandtext"><div class="brand">GYM <span>LOG</span></div></div></div><div class="row top-actions"><button class="ghost small" data-action="share-link">Compartir Gymlog</button><button id="quickResume" class="secondary hidden">Reanudar</button></div><small id="topSub" class="top-tagline">Tu entrenamiento, sin complicaciones</small></header><div class="version-tag" aria-label="Versión 1.14">v1.14</div>
 <nav class="nav" id="nav">
 <button data-page="home" class="active"><span class="ico">⌂</span>Inicio</button><button data-page="routines"><span class="ico">▤</span>Rutinas</button><button data-page="library"><span class="ico">＋</span>Biblioteca</button><button data-page="calculators"><span class="ico">▦</span>Calculadoras</button><button data-page="history"><span class="ico">◷</span>Historial</button><button data-page="progress"><span class="ico">↗</span>Progreso</button><button data-page="settings"><span class="ico">⚙</span>Ajustes</button>
 </nav><main id="main"></main></div>
@@ -249,13 +250,17 @@ function findReference(ex){return null} // La vinculación por parecido de nombr
 const normalizeLabel=x=>String(x||'').trim().toLocaleLowerCase('es').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ');
 function eligibleExercises(){return db.library.filter(e=>!e.legacyOnly)}
 function matchedCatalogExercise(e){
+ const byCanon=e.referenceExerciseId&&db.library.find(x=>x.isExcel&&x.id===e.referenceExerciseId);
+ if(byCanon)return byCanon;
+ const byCatalogName=e.catalogName&&db.library.find(x=>x.isExcel&&normalizeLabel(x.name)===normalizeLabel(e.catalogName));
+ if(byCatalogName)return byCatalogName;
  const byId=db.library.find(x=>x.isExcel&&x.id===e.exerciseId);
  if(byId)return byId;
  const name=normalizeLabel(e.name||e.exerciseNameSnapshot);
- return db.library.find(x=>x.isExcel&&normalizeLabel(x.name)===name)||null;
+ return db.library.find(x=>x.isExcel&&(normalizeLabel(x.name)===name||(x.aliases||[]).some(a=>normalizeLabel(a)===name)))||null;
 }
 function safeMediaUrl(x){const t=String(x||'').trim();return /^https:\/\//i.test(t)?t:'';}
-function viewTemplate(r){if(!r)return;const body=`<div class="exercise-modal-backdrop" id="templateBackdrop"><section class="exercise-modal"><div class="row between"><div class="exercise-modal-title">${esc(r.name)}</div><button class="ghost" id="templateClose">✕</button></div><p class="small muted">Rutina predefinida · Solo lectura</p>${r.days.map((d,i)=>`<div class="readonly-day"><h4>${esc(d.name||`Día ${i+1}`)}</h4>${d.exercises.map(e=>`<div class="small"><button type="button" class="exercise-open" data-exercise-detail="template" data-exercise-name="${esc(e.name)}">${esc(e.name)} <span class="exercise-open-icon">ⓘ</span></button> — ${e.sets!=null&&e.reps?`${esc(e.sets)} series × ${esc(e.reps)}`:(e.reps==='—'?'—':(e.reps?esc(e.reps):'Sin esquema indicado'))}${e.rir?' · RIR':''}${e.notes?' · '+esc(e.notes):''}</div>`).join('')}</div>`).join('')}${r.sourceNotes?`<p class="small muted"><b>Notas:</b> ${esc(r.sourceNotes)}</p>`:''}</section></div>`;document.body.insertAdjacentHTML('beforeend',body);$('#templateClose').onclick=()=>$('#templateBackdrop').remove();$('#templateBackdrop').onclick=e=>{if(e.target.id==='templateBackdrop')e.currentTarget.remove()}}
+function viewTemplate(r){if(!r)return;const body=`<div class="exercise-modal-backdrop" id="templateBackdrop"><section class="exercise-modal"><div class="row between"><div class="exercise-modal-title">${esc(r.name)}</div><button class="ghost" id="templateClose">✕</button></div><p class="small muted">Rutina predefinida · Solo lectura</p>${r.days.map((d,i)=>`<div class="readonly-day"><h4>${esc(d.name||`Día ${i+1}`)}</h4>${d.exercises.map(e=>`<div class="small"><button type="button" class="exercise-open" data-exercise-detail="template" data-exercise-id="${esc(e.id)}" data-exercise-name="${esc(e.name)}">${esc(e.name)} <span class="exercise-open-icon">ⓘ</span></button> — ${e.sets!=null&&e.reps?`${esc(e.sets)} series × ${esc(e.reps)}`:(e.reps==='—'?'—':(e.reps?esc(e.reps):'Sin esquema indicado'))}${e.rir?' · RIR':''}${e.notes?' · '+esc(e.notes):''}</div>`).join('')}</div>`).join('')}${r.sourceNotes?`<p class="small muted"><b>Notas:</b> ${esc(r.sourceNotes)}</p>`:''}</section></div>`;document.body.insertAdjacentHTML('beforeend',body);$('#templateClose').onclick=()=>$('#templateBackdrop').remove();$('#templateBackdrop').onclick=e=>{if(e.target.id==='templateBackdrop')e.currentTarget.remove()}}
 // Lector XLSX ligero, sin bibliotecas externas ni servicios de terceros.
 // Compatible con archivos .xlsx normales (ZIP con XML, compresión Store o Deflate).
 async function xlsxRows(buffer){
@@ -311,36 +316,46 @@ async function xlsxRows(buffer){
 }
 function mapCatalogRows(grid){
  const headers=(grid[0]||[]).map(x=>normalizeLabel(x));
- const find=(patterns,fallback)=>{const i=headers.findIndex(x=>patterns.some(p=>x.includes(p)));return i>=0?i:fallback};
- const cols={id:find(['nº','numero'],0),group:find(['grupo muscular'],1),name:find(['ejercicio (nombre','ejercicio'],2),image:find(['imagen directa'],3),page:find(['ficha original'],4),video:find(['gif / video','gif / vídeo','video (','vídeo ('],5),review:find(['revision de la imagen','revisión de la imagen'],6),imageFix:find(['url imagen correcta'],7),warning:find(['aviso sobre la ilustracion','aviso sobre la ilustración'],9)};
+ const find=(patterns,fallback=-1)=>{const i=headers.findIndex(x=>patterns.some(p=>x.includes(normalizeLabel(p))));return i>=0?i:fallback};
+ const modern=headers.includes('imagen inicial')&&headers.includes('imagen final');
+ const cols=modern?
+  {id:find(['id'],0),group:find(['grupo muscular'],2),name:find(['ejercicio (nombre','ejercicio'],3),equipment:find(['equipamiento'],4),image:find(['imagen inicial'],5),imageFinal:find(['imagen final'],6),video:find(['vídeo / gif','video / gif'],7),aliases:find(['alias'],8),instructions:find(['instrucciones'],9),source:find(['fuente / licencia'],10),review:find(['revisión'],11),notes:find(['notas'],12),page:-1,imageFix:-1,warning:-1}:
+  {id:find(['nº','numero'],0),group:find(['grupo muscular'],1),name:find(['ejercicio (nombre','ejercicio'],2),image:find(['imagen directa'],3),page:find(['ficha original'],4),video:find(['gif / video','gif / vídeo','video (','vídeo ('],5),review:find(['revision de la imagen','revisión de la imagen'],6),imageFix:find(['url imagen correcta'],7),warning:find(['aviso sobre la ilustracion','aviso sobre la ilustración'],9)};
+ const read=(row,key)=>cols[key]!==undefined&&cols[key]>=0?row[cols[key]]:'';
  const result=[],used=new Set();
  for(let i=1;i<grid.length;i++){
-  const row=grid[i],name=String(row[cols.name]||'').trim(),group=String(row[cols.group]||'').trim();
+  const row=grid[i],name=String(read(row,'name')||'').trim(),group=String(read(row,'group')||'').trim();
   if(!name||!group)continue;
-  const rawId=String(row[cols.id]||'').trim();
-  const id='excel-'+(rawId||'nuevo-'+i);
+  const rawId=String(read(row,'id')||'').trim();const id=modern?(rawId||'excel-nuevo-'+i):'excel-'+(rawId||'nuevo-'+i);
   if(used.has(id))throw Error('Hay un identificador repetido en el Excel: '+rawId);used.add(id);
-  const corrected=safeMediaUrl(row[cols.imageFix]),image=safeMediaUrl(row[cols.image]);
-  const review=String(row[cols.review]||'').trim().toLocaleUpperCase('es');
-  result.push({id,name,group,subgroup:group,equipment:'',imageUrl:corrected||(review==='INCORRECTA'?'':image),
-   referenceVideoUrl:safeMediaUrl(row[cols.video]),pageUrl:safeMediaUrl(row[cols.page]),
-   imageReview:review,isExcel:true,isCustom:false,variant:'',sourceWarning:String(row[cols.warning]||'')});
+  const corrected=safeMediaUrl(read(row,'imageFix')),image=safeMediaUrl(read(row,'image'));
+  const review=String(read(row,'review')||'').trim().toLocaleUpperCase('es');
+  result.push({id,name,group,subgroup:group,equipment:modern?String(read(row,'equipment')||''):'',
+   imageUrl:corrected||(review==='INCORRECTA'?'':image),imageFinalUrl:safeMediaUrl(read(row,'imageFinal')),
+   referenceVideoUrl:safeMediaUrl(read(row,'video')),pageUrl:'',imageReview:review,
+   aliases:modern?String(read(row,'aliases')||'').split('|').map(x=>x.trim()).filter(Boolean):[],
+   instructions:modern?String(read(row,'instructions')||''):'',source:modern?String(read(row,'source')||''):'',
+   notes:modern?String(read(row,'notes')||''):'',isExcel:true,isCustom:false,variant:'',sourceWarning:String(read(row,'warning')||'')});
  }
  if(result.length<1)throw Error('El Excel no contiene ejercicios reconocibles.');
  return result;
 }
 function catalogFromEmbedded(items){return items.map((r,i)=>({id:r.id||'excel-'+(i+1),name:r.name,group:r.group,subgroup:r.group,
- equipment:'',imageUrl:safeMediaUrl(r.image),referenceVideoUrl:safeMediaUrl(r.video),pageUrl:r.page||'',
- imageReview:r.review||'',sourceWarning:r.warning||'',variant:'',isExcel:true,isCustom:false}));}
+ equipment:r.equipment||'',imageUrl:safeMediaUrl(r.image||r.imageUrl),imageFinalUrl:safeMediaUrl(r.imageFinal||r.imageFinalUrl),
+ referenceVideoUrl:safeMediaUrl(r.video),pageUrl:'',imageReview:r.status||r.review||'',sourceWarning:r.warning||'',
+ source:r.source||'',instructions:r.instructions||'',aliases:Array.isArray(r.aliases)?r.aliases:[],notes:r.notes||'',
+ variant:'',isExcel:true,isCustom:false}));}
 function applyCatalog(newExercises,status){
  if(!Array.isArray(newExercises)||!newExercises.length)throw Error('Catálogo vacío.');
  const retained=db.library.filter(x=>x.isCustom);
  const idsReferenced=new Set();
- for(const r of db.routines){if(r.isTemplate)continue;for(const d of r.days||[])for(const ex of d.exercises||[])idsReferenced.add(ex.exerciseId)}
- if(db.activeSession)for(const ex of db.activeSession.exercises||[])idsReferenced.add(ex.exerciseId);
- // Conservar los registros anteriores sin incluirlos entre los ejercicios disponibles.
- const legacy=db.library.filter(x=>!x.isCustom&&!x.isExcel&&idsReferenced.has(x.id)).map(x=>({...x,legacyOnly:true}));
+ for(const r of db.routines){if(r.isTemplate)continue;for(const d of r.days||[])for(const ex of d.exercises||[])if(ex.exerciseId)idsReferenced.add(ex.exerciseId)}
+ for(const session of db.sessions||[])for(const ex of session.exercises||[])if(ex.exerciseId)idsReferenced.add(ex.exerciseId);
+ if(db.activeSession)for(const ex of db.activeSession.exercises||[])if(ex.exerciseId)idsReferenced.add(ex.exerciseId);
  const allIds=new Set(newExercises.map(x=>x.id));
+ // No perder la ficha ni el historial de ejercicios antiguos usados en rutinas propias o sesiones.
+ // Esas fichas se guardan como legado y no se muestran en el catálogo de selección.
+ const legacy=db.library.filter(x=>!x.isCustom&&!allIds.has(x.id)&&idsReferenced.has(x.id)).map(x=>({...x,legacyOnly:true}));
  db.library=[...newExercises,...retained.filter(x=>!allIds.has(x.id)),...legacy.filter(x=>!allIds.has(x.id))];
  catalogStatus=status+' · '+newExercises.length+' ejercicios';save();render();
 }
@@ -385,8 +400,11 @@ async function syncExternalTemplates(){
     const originals=old?.exercises||[];
     return {...JSON.parse(JSON.stringify(d)),id:old?.id||d.id||uid(),exercises:(d.exercises||[]).map((e,j)=>{
       const oldEx=originals.find(x=>x.name===e.name)||originals[j];
-      const local=db.library.find(x=>x.isExcel&&normalizeLabel(x.name)===normalizeLabel(e.name));
-      return {...JSON.parse(JSON.stringify(e)),id:(oldEx?.name===e.name?oldEx.id:null)||e.id||uid(),exerciseId:(oldEx?.name===e.name?oldEx.exerciseId:null)||local?.id||e.exerciseId||e.name};
+      const ref=e.referenceExerciseId&&db.library.find(x=>x.id===e.referenceExerciseId);
+      const local=ref||db.library.find(x=>x.isExcel&&normalizeLabel(x.name)===normalizeLabel(e.catalogName||e.name));
+      return {...JSON.parse(JSON.stringify(e)),id:oldEx?.id||e.id||uid(),
+       exerciseId:oldEx?.exerciseId||local?.id||e.exerciseId||e.name,
+       referenceExerciseId:local?.id||e.referenceExerciseId||'',catalogName:local?.name||e.catalogName||e.name};
     })};
    });
    Object.assign(dst,{name:src.name,sourceTemplateId:src.id||src.name,isTemplate:true,proOnly:!!src.proOnly,days});
@@ -426,7 +444,7 @@ function libraryView(){
  const fold=t=>normalizeLabel(t);
  const items=source.filter(e=>(group==='Todos'||e.group===group)&&(!q||fold([e.name,e.group,e.subgroup,e.equipment,e.variant].join(' ')).includes(fold(q))));
  return `<div class="title">Biblioteca de ejercicios</div>
- <div class="card"><p class="small muted"><b>${esc(catalogStatus)}</b><br>Datos editables en <code>data/ejercicios.xlsx</code>. Los vídeos solo aparecen si su enlace está en la hoja Excel.</p>
+ <div class="card"><p class="small muted"><b>${esc(catalogStatus)}</b><br>Datos editables en <code>data/ejercicios.xlsx</code>. Vídeos solo cuando haya una URL autorizada. Imágenes adicionales: <a href="https://repdb.co" target="_blank" rel="nofollow noopener">Exercise data by RepDB (repdb.co)</a>.</p>
  <div class="fieldgrid"><div><label>Buscar ejercicio</label><input id="libSearch" placeholder="Nombre o músculo" value="${esc(q)}"></div>
  <div><label>Grupo muscular</label><select id="libGroup"><option>Todos</option>${[...new Set(source.map(e=>e.group))].sort((a,b)=>a.localeCompare(b,'es')).map(g=>`<option ${g===group?'selected':''}>${esc(g)}</option>`).join('')}</select></div></div>
  <div class="actions"><button data-action="new-exercise">＋ Crear ejercicio personal</button><button class="secondary" data-action="import-excel">Probar otro Excel</button>
@@ -449,7 +467,7 @@ function progressView(){
 }
 function settingsView(){return `<div class="title">Ajustes y datos</div><div class="card"><div class="subtitle">Preferencias</div><div class="fieldgrid"><div><label>Unidad de peso</label><select id="unit"><option value="kg" ${db.settings.unit==='kg'?'selected':''}>Kilogramos (kg)</option><option value="lb" ${db.settings.unit==='lb'?'selected':''}>Libras (lb)</option></select></div><div><label>Descanso compuesto (segundos)</label><input id="compound" type="number" min="1" value="${db.settings.compound||150}"></div><div><label>Descanso aislamiento (segundos)</label><input id="isolation" type="number" min="1" value="${db.settings.isolation||90}"></div></div><label style="display:flex;gap:8px;align-items:center;margin-top:12px"><input id="autoTimer" type="checkbox" style="width:auto" ${db.settings.autoTimer?'checked':''}> Iniciar descanso automáticamente al completar una serie</label><div class="actions"><button data-action="save-settings">Guardar preferencias</button></div></div><div class="card"><div class="subtitle">Archivos editables</div><p class="small muted">Biblioteca: <b>data/ejercicios.xlsx</b> · Rutinas oficiales: <b>data/routines.json</b>. Para publicar cambios, sustituye solo el archivo editado en GitHub y recarga GYM LOG. No hace falta modificar el código ni reinstalar la aplicación. Los entrenamientos e historial se conservan en el dispositivo.</p><p class="small">${esc(catalogStatus)}</p><div class="actions"><button class="secondary" data-action="import-excel">Probar Excel en este dispositivo</button><input id="catalogUploadFile" type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" class="hidden"></div></div><div class="card"><div class="subtitle">Copias de seguridad</div><p class="muted small">Después de guardar una rutina o terminar un entrenamiento, GYM LOG puede sugerirte descargar una copia local. Puedes silenciar el aviso una semana o para siempre. Los datos se guardan en este dispositivo. Las copias son responsabilidad tuya; borrar los datos del navegador puede eliminarlos.</p><div class="actions"><button data-action="backup">Crear copia de seguridad</button><button class="secondary" data-action="restore">Restaurar copia</button><input id="restoreFile" type="file" accept=".json,.gymlog,application/json" class="hidden"></div><hr class="hr"><button class="ghost" data-action="export-all-routines">Exportar rutinas</button></div><div class="card"><div class="subtitle">GYM LOG PRO</div><div class="card">${readStored('gymlog_pro_active')==='1'?'<div class="pro-active">GYM LOG PRO está activado en este dispositivo.</div>':''}<p class="small muted">Desbloqueo local en este dispositivo. No es una protección de seguridad frente a inspección o modificación de archivos.</p><div class="fieldgrid"><input id="proPassword" type="password" placeholder="Contraseña PRO"><button data-action="pro-apply">Aplicar</button><button class="secondary" data-action="pro-clear">Borrar activación</button></div></div><div class="subtitle">Privacidad</div><button class="secondary" data-action="show-privacy">Volver a ver el aviso de privacidad</button><p>GYM LOG funciona localmente y no requiere cuenta. La publicidad puede aparecer al iniciar entrenamientos, salvo que GYM LOG PRO esté activado. Los datos permanecen en el almacenamiento del navegador de este dispositivo; no se sincronizan automáticamente.</p><p class="small muted">Para usarla sin conexión, abre la aplicación una vez desde el dispositivo. La versión HTML independiente no garantiza instalación PWA ni alarmas cuando el navegador está cerrado.</p><button class="danger" data-action="reset">Restablecer todos los datos</button></div>`}
 
-// v1.13: ficha completa sin abrir otra aplicación. El Excel sigue siendo la única fuente de imágenes y vídeos.
+// v1.14: ficha completa sin abrir otra aplicación. El Excel sigue siendo la única fuente de imágenes y vídeos.
 function openExerciseDetail(ex){
  if(!ex)return;
  const originalName=String(ex.name||ex.exerciseNameSnapshot||'Ejercicio');
@@ -457,7 +475,7 @@ function openExerciseDetail(ex){
  const ref=matched||ex;
  const image=safeMediaUrl(ref.imageUrl||ex.imageUrl);
  const video=safeMediaUrl(ref.referenceVideoUrl||ex.referenceVideoUrl);
- const pageUrl=safeMediaUrl(ref.pageUrl||ex.pageUrl);
+ const imageEnd=safeMediaUrl(ref.imageFinalUrl||ex.imageFinalUrl);
  const group=ref.group||ex.group||'Sin grupo asignado';
  const gif=/\.(gif)(?:[?#]|$)/i.test(video),movie=/\.(mp4|webm|ogg)(?:[?#]|$)/i.test(video);
  const overlay=document.createElement('div');overlay.className='exercise-modal-backdrop';overlay.id='exerciseDetailBackdrop';
@@ -466,9 +484,11 @@ function openExerciseDetail(ex){
    <div class="row between"><div style="min-width:0"><h2 class="exercise-modal-title" id="exDetailTitle">${esc(originalName)}</h2><div class="muted small">${esc(group)}</div></div><button type="button" class="ghost" id="exerciseDetailClose" aria-label="Cerrar ficha">✕</button></div>
    <div class="exercise-detail-label">Imagen del ejercicio</div>
    ${image?`<img class="exercise-detail-image" src="${esc(image)}" alt="Ilustración: ${esc(originalName)}" id="exerciseDetailImage" loading="eager">`:'<div class="exercise-detail-placeholder">Todavía no hay una imagen asignada a este ejercicio en el Excel.</div>'}
+   ${imageEnd?`<div class="exercise-detail-label">Otra posición del movimiento</div><img class="exercise-detail-image" src="${esc(imageEnd)}" alt="Otra posición: ${esc(originalName)}" loading="lazy">`:''}
+   ${ref.instructions?`<div class="exercise-detail-label">Ejecución</div><p class="small">${esc(ref.instructions)}</p>`:''}
    <div class="exercise-detail-label">Vídeo o animación del ejercicio</div>
    ${!video?'<div class="exercise-detail-placeholder">Vídeo pendiente de asignación en el Excel. Puedes consultar la ilustración de arriba.</div>':gif?`<img class="exercise-detail-image exercise-detail-gif" src="${esc(video)}" alt="Animación del ejercicio ${esc(originalName)}" id="exerciseDetailGif">`:movie?`<video class="exercise-detail-image" controls playsinline preload="metadata" src="${esc(video)}">Tu navegador no permite reproducir este vídeo.</video>`:`<p class="small">El recurso de vídeo se abre en su página original.</p><a href="${esc(video)}" target="_blank" rel="noopener noreferrer">▶ Abrir vídeo</a>`}
-   <div class="actions">${pageUrl?`<a class="secondary" style="display:inline-flex;align-items:center;border-radius:10px;padding:10px 14px;color:#171717;background:#fff0a3;text-decoration:none" href="${esc(pageUrl)}" target="_blank" rel="noopener noreferrer">Ficha original de Simply Fitness</a>`:''}${image?`<a class="ghost" style="display:inline-flex;align-items:center;border:1px solid #ccc;border-radius:10px;padding:10px 14px;text-decoration:none;color:#171717" href="${esc(image)}" target="_blank" rel="noopener noreferrer">Ampliar imagen</a>`:''}<button class="secondary" type="button" id="exerciseDetailDone">Cerrar</button></div>
+   <div class="actions">${image?`<a class="ghost" style="display:inline-flex;align-items:center;border:1px solid #ccc;border-radius:10px;padding:10px 14px;text-decoration:none;color:#171717" href="${esc(image)}" target="_blank" rel="noopener noreferrer">Ampliar imagen</a>`:''}<button class="secondary" type="button" id="exerciseDetailDone">Cerrar</button></div>
    <p class="calc-hint">Las imágenes y vídeos están enlazados desde fuentes externas; pueden necesitar conexión a Internet.</p>
   </section>`;
  document.getElementById('exerciseDetailBackdrop')?.remove();document.body.appendChild(overlay);
@@ -486,46 +506,58 @@ let calcState={type:'get',unit:'metric',sex:'hombre',weight:'',height:'',age:'',
 const CALC_CHOICES=[{type:'get',label:'GET',desc:'Gasto energético total diario'},{type:'tmb',label:'TMB',desc:'Tasa metabólica basal'},{type:'imc',label:'IMC',desc:'Índice de masa corporal'}];
 function calculatorsView(){
  const c=calcState,met=c.unit==='metric',isImc=c.type==='imc',isGet=c.type==='get',useFat=c.formula==='katch';
- return `<div class="title">Calculadoras</div><p class="muted small">Tres herramientas orientativas para conocer tu gasto energético y el índice de masa corporal. Los cálculos se hacen en tu dispositivo y los datos introducidos no se envían a servidores.</p>
+ return `<div class="title">Calculadoras</div>
+ <p class="muted small">Resultados en tu dispositivo; tus datos no se envían a ningún servidor. Las tres herramientas son estimaciones, no diagnósticos.</p>
  <div class="calc-tabs">${CALC_CHOICES.map(x=>`<button type="button" class="calc-tab ${c.type===x.type?'selected':''}" data-calc-type="${x.type}" aria-pressed="${c.type===x.type}"><b>${x.label}</b><small>${x.desc}</small></button>`).join('')}</div>
- <div class="card"><div class="subtitle">${isImc?'Calculadora de índice de masa corporal (IMC)':isGet?'Calculadora de gasto energético total (GET)':'Calculadora de tasa metabólica basal (TMB)'}</div>
- <p class="small muted">${isImc?'Relaciona tu peso con tu estatura. Es una referencia para adultos y no distingue masa muscular de grasa.':isGet?'Calcula una estimación de las calorías que gastas cada día según tu metabolismo basal y nivel de actividad.':'Estima las calorías que necesita tu organismo en reposo, utilizando la ecuación que selecciones.'}</p>
+ <div class="card"><div class="subtitle">${isImc?'Índice de masa corporal (IMC)':isGet?'Gasto energético total (GET)':'Tasa metabólica basal (TMB)'}</div>
+ <p class="small muted">${isImc?'El IMC compara peso y altura; no mide directamente grasa ni musculatura. La edad determina si pueden aplicarse las categorías de adultos.':isGet?'Estimación de la energía consumida a lo largo de un día entero, basada en la TMB y la actividad.':'Energía aproximada que utiliza el organismo en reposo. No equivale a las calorías diarias de mantenimiento.'}</p>
  <div class="fieldgrid">
- <div><label for="calcUnit">Unidades</label><select id="calcUnit" data-calc-field="unit"><option value="metric" ${met?'selected':''}>Métricas (kg, cm)</option><option value="imperial" ${!met?'selected':''}>Imperiales (lb, pulgadas)</option></select></div>
- <div><label for="calcWeight">Peso (${met?'kg':'lb'})</label><input type="number" id="calcWeight" data-calc-field="weight" min="1" step="0.1" inputmode="decimal" placeholder="Ej. ${met?'80':'176'}" value="${esc(c.weight)}"></div>
- <div><label for="calcHeight">Altura (${met?'cm':'pulgadas'})</label><input type="number" id="calcHeight" data-calc-field="height" min="1" step="0.1" inputmode="decimal" placeholder="Ej. ${met?'175':'69'}" value="${esc(c.height)}"></div>
- ${!isImc?`<div><label for="calcAge">Edad (años)</label><input type="number" id="calcAge" data-calc-field="age" min="18" max="110" step="1" inputmode="numeric" placeholder="Ej. 35" value="${esc(c.age)}"></div>
- <div><label for="calcSex">Sexo (ecuación)</label><select id="calcSex" data-calc-field="sex"><option value="hombre" ${c.sex==='hombre'?'selected':''}>Hombre</option><option value="mujer" ${c.sex==='mujer'?'selected':''}>Mujer</option></select></div>
- <div><label for="calcFormula">Fórmula para TMB</label><select id="calcFormula" data-calc-field="formula"><option value="mifflin" ${c.formula==='mifflin'?'selected':''}>Mifflin-St Jeor</option><option value="harris" ${c.formula==='harris'?'selected':''}>Harris-Benedict (revisada)</option><option value="katch" ${c.formula==='katch'?'selected':''}>Katch-McArdle</option></select></div>
- ${useFat?`<div><label for="calcFat">Grasa corporal (%)</label><input type="number" id="calcFat" data-calc-field="fat" min="0" max="80" step="0.1" inputmode="decimal" placeholder="Ej. 20" value="${esc(c.fat)}"></div>`:''}
- ${isGet?`<div style="grid-column:1/-1"><label for="calcActivity">Actividad habitual</label><select id="calcActivity" data-calc-field="activity"><option value="1.2" ${c.activity==='1.2'?'selected':''}>Sedentaria · poca actividad (×1,20)</option><option value="1.37" ${c.activity==='1.37'?'selected':''}>Ligera · 1–3 días/semana (×1,37)</option><option value="1.55" ${c.activity==='1.55'?'selected':''}>Moderada · 3–5 días/semana (×1,55)</option><option value="1.72" ${c.activity==='1.72'?'selected':''}>Intensa · 6–7 días/semana (×1,72)</option><option value="1.9" ${c.activity==='1.9'?'selected':''}>Muy intensa · entrenamiento exigente o trabajo físico (×1,90)</option></select></div>`:''}`:''}
+  <div><label for="calcUnit">Unidades</label><select id="calcUnit" data-calc-field="unit"><option value="metric" ${met?'selected':''}>Métricas (kg, cm)</option><option value="imperial" ${!met?'selected':''}>Imperiales (lb, pulgadas)</option></select></div>
+  <div><label for="calcWeight">Peso (${met?'kg':'lb'})</label><input type="number" id="calcWeight" data-calc-field="weight" min="1" step="0.1" inputmode="decimal" placeholder="Ej. ${met?'80':'176'}" value="${esc(c.weight)}"></div>
+  <div><label for="calcHeight">Altura (${met?'cm':'pulgadas'})</label><input type="number" id="calcHeight" data-calc-field="height" min="1" step="0.1" inputmode="decimal" placeholder="Ej. ${met?'175':'69'}" value="${esc(c.height)}"></div>
+  <div><label for="calcAge">Edad (años)</label><input type="number" id="calcAge" data-calc-field="age" min="2" max="110" step="1" inputmode="numeric" placeholder="Ej. 35" value="${esc(c.age)}"></div>
+  ${!isImc?`<div><label for="calcSex">Sexo usado en la fórmula</label><select id="calcSex" data-calc-field="sex"><option value="hombre" ${c.sex==='hombre'?'selected':''}>Hombre</option><option value="mujer" ${c.sex==='mujer'?'selected':''}>Mujer</option></select></div>
+   <div><label for="calcFormula">Fórmula TMB</label><select id="calcFormula" data-calc-field="formula"><option value="mifflin" ${c.formula==='mifflin'?'selected':''}>Mifflin-St Jeor</option><option value="harris" ${c.formula==='harris'?'selected':''}>Harris-Benedict revisada</option><option value="katch" ${c.formula==='katch'?'selected':''}>Katch-McArdle</option></select></div>
+   ${useFat?`<div><label for="calcFat">Grasa corporal (%)</label><input type="number" id="calcFat" data-calc-field="fat" min="1" max="80" step="0.1" placeholder="Ej. 20" value="${esc(c.fat)}"></div>`:''}
+   ${isGet?`<div style="grid-column:1/-1"><label for="calcActivity">Actividad diaria aproximada</label><select id="calcActivity" data-calc-field="activity"><option value="1.2" ${c.activity==='1.2'?'selected':''}>Sedentaria (×1,20)</option><option value="1.37" ${c.activity==='1.37'?'selected':''}>Ligera (×1,37)</option><option value="1.55" ${c.activity==='1.55'?'selected':''}>Moderada (×1,55)</option><option value="1.72" ${c.activity==='1.72'?'selected':''}>Alta (×1,72)</option><option value="1.9" ${c.activity==='1.9'?'selected':''}>Muy alta (×1,90)</option></select></div>`:''}`:''}
  </div><div id="calcResult" class="calc-result" aria-live="polite"></div>
- <p class="calc-hint">Resultados estimados, no diagnósticos. En personas menores de 18 años no se recomienda interpretar el IMC mediante los rangos de adultos. Fórmulas de referencia: Mifflin-St Jeor, Harris-Benedict y Katch-McArdle.</p>
- <p class="small muted">Basado en las tres herramientas descritas por <a href="https://www.simplyfitness.com/es/pages/fitness-tools-calculators" target="_blank" rel="noopener noreferrer">Simply Fitness</a>.</p></div>`;
+ <p class="calc-hint">Los resultados son orientativos: la edad afecta a la TMB y determina cómo interpretar el IMC, pero <b>en adultos desde 20 años los límites del IMC no cambian automáticamente con la edad</b>. El IMC debe valorarse junto con la musculatura, cintura y situación de salud.</p>
+ <p class="small muted">Referencias: <a href="https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html" target="_blank" rel="noopener noreferrer">CDC · adultos</a> · <a href="https://www.cdc.gov/bmi/child-teen-calculator/" target="_blank" rel="noopener noreferrer">CDC · menores de 20</a> · <a href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" target="_blank" rel="noopener noreferrer">OMS</a>.</p></div>`;
 }
 function calcNumber(value){if(value===''||value===null||value===undefined)return NaN;const v=Number(String(value).replace(',','.'));return Number.isFinite(v)?v:NaN}
 function calcResult(){
  const c=calcState,out=$('#calcResult');if(!out)return;
  const weight=calcNumber(c.weight)*(c.unit==='imperial'?0.45359237:1),height=calcNumber(c.height)*(c.unit==='imperial'?2.54:1),age=calcNumber(c.age),fat=calcNumber(c.fat);
- const format=v=>Math.round(v).toLocaleString('es-ES');
+ const format=v=>Math.round(v).toLocaleString('es-ES'),decimal=v=>Number(v).toLocaleString('es-ES',{maximumFractionDigits:1,minimumFractionDigits:1});
  if(!Number.isFinite(weight)||weight<15||weight>500||!Number.isFinite(height)||height<100||height>250){out.innerHTML='<div class="small muted">Introduce un peso y una altura válidos para obtener el resultado.</div>';return}
+ if(!Number.isFinite(age)||!Number.isInteger(age)||age<2||age>110){out.innerHTML='<div class="small muted">Introduce tu edad en años completos para interpretar correctamente el resultado.</div>';return}
  if(c.type==='imc'){
-  const bmi=weight/Math.pow(height/100,2);
-  const label=bmi<16?'Delgadez severa':bmi<17?'Delgadez moderada':bmi<18.5?'Peso insuficiente':bmi<25?'Rango habitual':bmi<30?'Sobrepeso':bmi<35?'Obesidad · grado I':bmi<40?'Obesidad · grado II':'Obesidad · grado III';
-  out.innerHTML=`<div class="muted small">Tu índice de masa corporal estimado</div><div class="calc-number">${bmi.toFixed(1).replace('.',',')}</div><div>${esc(label)}</div><div class="small muted" style="margin-top:8px">Cálculo: peso (kg) ÷ altura (m)². El IMC no refleja por sí solo la composición corporal.</div>`;return;
+  const bmi=weight/Math.pow(height/100,2),bmiTxt=decimal(bmi),m=height/100;
+  if(age<20){out.innerHTML=`<div class="muted small">IMC calculado</div><div class="calc-number">${bmiTxt}</div><div class="calc-explain"><b>Edad: ${age} años.</b> No mostramos «normopeso», «sobrepeso» ni «obesidad» usando límites de adultos, porque antes de los 20 años deben emplearse referencias específicas por edad y sexo (percentiles de IMC para la edad). El número del IMC sí se calcula igual, pero no se interpreta igual.<p><a href="https://www.cdc.gov/bmi/child-teen-calculator/" target="_blank" rel="noopener noreferrer">Consultar la calculadora específica para menores de 20 años (CDC)</a>.</p></div>`;return}
+  const label=bmi<18.5?'Bajo peso':bmi<25?'Peso saludable':bmi<30?'Sobrepeso':bmi<35?'Obesidad · grado I':bmi<40?'Obesidad · grado II':'Obesidad · grado III';
+  const why=bmi<18.5?'Tu resultado está por debajo de 18,5.':bmi<25?'Tu resultado está entre 18,5 y menos de 25.':bmi<30?`Tu resultado ${bmiTxt} supera el umbral de 25,0 y todavía es inferior a 30,0. Por eso aparece la categoría «sobrepeso», aunque eso no demuestra por sí solo exceso de grasa.`:`Tu resultado ${bmiTxt} es igual o superior a 30,0. El intervalo concreto determina el grado.`;
+  const kgLow=18.5*m*m,kgHigh=25*m*m,meterText=m.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const bodyNote=age>=65?'A partir de edades avanzadas, el IMC puede perder precisión para representar masa muscular, fragilidad y distribución grasa. Conviene interpretar el resultado individualmente.':'La masa muscular puede elevar el IMC sin que implique necesariamente exceso de grasa. Tampoco muestra dónde se distribuye la grasa.';
+  out.innerHTML=`<div class="muted small">IMC calculado · ${age} años</div><div class="calc-number">${bmiTxt}</div><b>${esc(label)}</b><div class="calc-explain"><b>¿Por qué esa categoría?</b> ${why}<p><b>Fórmula:</b> ${decimal(weight)} kg ÷ (${meterText} m × ${meterText} m) = ${bmiTxt} kg/m².</p><p><b>Guía de categorías para personas desde 20 años:</b></p>
+  <div class="calc-scale"><span class="${bmi<18.5?'calc-current':''}">Menos de 18,5 · Bajo peso</span><span class="${bmi>=18.5&&bmi<25?'calc-current':''}">18,5 a menos de 25 · Peso saludable</span><span class="${bmi>=25&&bmi<30?'calc-current':''}">25 a menos de 30 · Sobrepeso</span><span class="${bmi>=30?'calc-current':''}">30 o más · Obesidad (3 grados)</span></div>
+  <p>Para tu altura, el intervalo correspondiente al IMC 18,5–24,9 equivale matemáticamente a unos <b>${format(kgLow)}–${format(kgHigh)} kg</b>. No es un peso objetivo personalizado.</p>
+  <p><b>Importante:</b> ${bodyNote} También cuentan la cintura, actividad física, antecedentes y parámetros clínicos. El IMC es una herramienta inicial, no un diagnóstico.</p><p>En adultos los umbrales son iguales a los 25, 45 o 70 años; la edad no modifica directamente la fórmula ni convierte un IMC de 26 en «normal».</p></div>`;return;
  }
- if(!Number.isFinite(age)||age<18||age>110){out.innerHTML='<div class="small muted">Indica tu edad (18–110 años) para calcular TMB y GET.</div>';return}
- let bmr;if(c.formula==='katch'){
-  if(!Number.isFinite(fat)||fat<0||fat>80){out.innerHTML='<div class="small muted">Introduce tu porcentaje de grasa corporal (0–80 %) para utilizar Katch-McArdle.</div>';return}
-  bmr=370+21.6*weight*(1-fat/100);
+ if(age<18){out.innerHTML='<div class="small muted">Estas fórmulas de TMB y GET no se presentan como válidas para menores de 18 años. Consulta orientación profesional adecuada a la edad.</div>';return}
+ let bmr,formulaLabel,formulaText;
+ if(c.formula==='katch'){
+  if(!Number.isFinite(fat)||fat<=0||fat>=80){out.innerHTML='<div class="small muted">Introduce un porcentaje de grasa corporal válido (más de 0 y menos de 80 %) para usar Katch-McArdle.</div>';return}
+  bmr=370+21.6*weight*(1-fat/100);formulaLabel='Katch-McArdle';formulaText=`370 + 21,6 × masa libre de grasa (${decimal(weight*(1-fat/100))} kg)`;
  }else if(c.formula==='harris'){
   bmr=c.sex==='hombre'?88.362+13.397*weight+4.799*height-5.677*age:447.593+9.247*weight+3.098*height-4.330*age;
+  formulaLabel='Harris-Benedict revisada';formulaText='Ecuación de Harris-Benedict revisada: peso, altura, edad y sexo';
  }else{
-  bmr=10*weight+6.25*height-5*age+(c.sex==='hombre'?5:-161);
+  bmr=10*weight+6.25*height-5*age+(c.sex==='hombre'?5:-161);formulaLabel='Mifflin-St Jeor';formulaText=`10 × ${decimal(weight)} + 6,25 × ${decimal(height)} − 5 × ${age} ${c.sex==='hombre'?'+ 5':'− 161'}`;
  }
- if(c.type==='tmb'){out.innerHTML=`<div class="muted small">Tu tasa metabólica basal estimada</div><div class="calc-number">${format(bmr)} kcal/día</div><div class="small muted">Energía aproximada en reposo · ${esc(c.formula==='mifflin'?'Mifflin-St Jeor':c.formula==='harris'?'Harris-Benedict revisada':'Katch-McArdle')}</div>`;return}
+ const explain=`<div class="calc-explain"><b>Cómo se ha calculado</b><p>Fórmula: ${esc(formulaLabel)}. ${esc(formulaText)}.</p><p>Edad utilizada: <b>${age} años</b>. La TMB es la energía estimada en reposo: no incluye toda la actividad diaria, entrenamiento ni digestión. Es una aproximación estadística, no un valor medido.</p></div>`;
+ if(c.type==='tmb'){out.innerHTML=`<div class="muted small">Tasa metabólica basal</div><div class="calc-number">${format(bmr)} kcal/día</div>${explain}<p class="calc-hint">Para estimar el gasto total, selecciona la pestaña GET. La TMB no es una recomendación para comer exactamente esa cantidad.</p>`;return}
  const activity=Number(c.activity)||1.55,get=bmr*activity;
- out.innerHTML=`<div class="muted small">Tu gasto energético total estimado</div><div class="calc-number">${format(get)} kcal/día</div><div>Metabolismo basal: <b>${format(bmr)} kcal/día</b></div><div class="small muted">Factor de actividad ×${activity.toLocaleString('es-ES',{maximumFractionDigits:2})}. Orientativo: el gasto real varía entre personas y días.</div>`;
+ out.innerHTML=`<div class="muted small">Gasto energético total aproximado (mantenimiento)</div><div class="calc-number">${format(get)} kcal/día</div><div class="calc-explain"><b>Desglose</b><p>TMB: <b>${format(bmr)} kcal/día</b> · Actividad: <b>×${activity.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2})}</b>.</p><p><b>${format(bmr)} × ${activity.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2})} = ${format(get)} kcal/día</b>.</p><p>El multiplicador es una hipótesis global sobre entrenamiento, pasos y actividad cotidiana. Dos personas que entrenan los mismos días pueden tener gastos distintos.</p><p>Utiliza esta cifra como punto de partida orientativo para interpretar tendencias durante varias semanas, no como consumo obligatorio.</p></div>${explain}`;
 }
 function bindCalculator(){
  $$('[data-calc-type]').forEach(b=>b.onclick=()=>{calcState.type=b.dataset.calcType;render()});
@@ -555,7 +587,7 @@ document.addEventListener('click',event=>{
  let ex=null;
  if(button.dataset.exerciseDetail==='catalog')ex=db.library.find(x=>x.id===button.dataset.exerciseId);
  else if(button.dataset.exerciseDetail==='session')ex=db.activeSession?.exercises.find(x=>x.id===button.dataset.exerciseId);
- else if(button.dataset.exerciseDetail==='template')ex={name:button.dataset.exerciseName||'Ejercicio'};
+ else if(button.dataset.exerciseDetail==='template')ex=db.routines.flatMap(r=>r.days||[]).flatMap(d=>d.exercises||[]).find(e=>e.id===button.dataset.exerciseId)||{name:button.dataset.exerciseName||'Ejercicio'};
  else if(button.dataset.exerciseDetail==='history')ex=db.sessions.find(s=>s.id===button.dataset.sessionId)?.exercises.find(x=>x.id===button.dataset.exerciseId);
  if(ex)openExerciseDetail(ex);
 });
@@ -623,7 +655,7 @@ else if(a==='delete-session'){if(confirm('¿Eliminar este entrenamiento del hist
 function editRoutine(r){if(r?.isTemplate){alert('Las rutinas de serie están protegidas. Duplica la rutina para editar la copia.');return}const isNew=!r;let copy=r?JSON.parse(JSON.stringify(r)):{id:uid(),name:'Nueva rutina',days:[{id:uid(),name:'Día 1',exercises:[]}]};const content=`<div class="title">${isNew?'Nueva rutina':'Editar rutina'}</div><div class="card"><label>Nombre</label><input id="rName" value="${esc(copy.name)}"><div id="daysEdit">${copy.days.map((d,i)=>dayEditor(d,i)).join('')}</div><div class="actions"><button type="button" class="secondary" id="addDay">＋ Añadir día</button><button type="button" id="saveRoutine">Guardar rutina</button><button type="button" class="ghost" id="cancelRoutine">Cancelar</button></div></div>`;$('#main').innerHTML=content;let days=copy.days;
  const redraw=()=>{$('#daysEdit').innerHTML=days.map((d,i)=>dayEditor(d,i)).join('');bindDayControls()};
  function bindDayControls(){$$('#daysEdit [data-dayname]').forEach(inp=>inp.onchange=()=>days[+inp.dataset.index].name=inp.value);$$('#daysEdit [data-add-ex]').forEach(btn=>btn.onclick=()=>chooseExercise(ex=>{days[+btn.dataset.addEx].exercises.push({id:uid(),exerciseId:ex.id,name:ex.name,referenceExerciseId:ex.referenceExerciseId||'',referenceVideoUrl:ex.referenceVideoUrl||'',variant:ex.variant||'',sets:3,reps:'8–12',rest:120,notes:'',metric:'reps'});redraw()}));$$('#daysEdit [data-del-day]').forEach(btn=>btn.onclick=()=>{if(days.length>1){days.splice(+btn.dataset.delDay,1);redraw()}else alert('La rutina debe tener al menos un día.')});$$('#daysEdit [data-edit-ex]').forEach(btn=>btn.onclick=()=>openRoutineExerciseEditor(+btn.dataset.day,+btn.dataset.editEx));$$('#daysEdit [data-remove-ex]').forEach(btn=>btn.onclick=()=>{days[+btn.dataset.day].exercises.splice(+btn.dataset.removeEx,1);redraw()})}
- function dayEditor(d,i){return `<div class="card"><div class="row between"><input data-dayname data-index="${i}" value="${esc(d.name)}" aria-label="Nombre del día"><button class="danger" data-del-day="${i}">Eliminar día</button></div>${d.exercises.map((e,j)=>`<div class="row between" style="padding:10px 0;border-bottom:1px solid var(--line);gap:8px"><div style="flex:1;min-width:0"><button type="button" class="exercise-open" data-exercise-detail="template" data-exercise-name="${esc(e.name)}"><b>${esc(localizedExerciseName(e))}</b> <span class="exercise-open-icon">ⓘ</span></button><div class="small muted">${Number(e.sets)||3} series · ${esc(e.reps||'8–12')} rep. · descanso ${Number(e.rest)||120} s${e.variant?' · '+esc(e.variant):''}${e.notes?' · '+esc(e.notes):''}</div></div><div class="actions" style="margin:0"><button class="secondary" data-day="${i}" data-edit-ex="${j}">Modificar</button><button class="ghost" data-day="${i}" data-remove-ex="${j}">Quitar</button></div></div>`).join('')}<button class="secondary" style="margin-top:10px" data-add-ex="${i}">＋ Añadir ejercicio</button></div>`}
+ function dayEditor(d,i){return `<div class="card"><div class="row between"><input data-dayname data-index="${i}" value="${esc(d.name)}" aria-label="Nombre del día"><button class="danger" data-del-day="${i}">Eliminar día</button></div>${d.exercises.map((e,j)=>`<div class="row between" style="padding:10px 0;border-bottom:1px solid var(--line);gap:8px"><div style="flex:1;min-width:0"><button type="button" class="exercise-open" data-exercise-detail="template" data-exercise-id="${esc(e.id)}" data-exercise-name="${esc(e.name)}"><b>${esc(localizedExerciseName(e))}</b> <span class="exercise-open-icon">ⓘ</span></button><div class="small muted">${Number(e.sets)||3} series · ${esc(e.reps||'8–12')} rep. · descanso ${Number(e.rest)||120} s${e.variant?' · '+esc(e.variant):''}${e.notes?' · '+esc(e.notes):''}</div></div><div class="actions" style="margin:0"><button class="secondary" data-day="${i}" data-edit-ex="${j}">Modificar</button><button class="ghost" data-day="${i}" data-remove-ex="${j}">Quitar</button></div></div>`).join('')}<button class="secondary" style="margin-top:10px" data-add-ex="${i}">＋ Añadir ejercicio</button></div>`}
  function openRoutineExerciseEditor(dayIndex,exerciseIndex){const ex=days[dayIndex]?.exercises[exerciseIndex];if(!ex)return;document.getElementById('routineExerciseModal')?.remove();const overlay=document.createElement('div');overlay.id='routineExerciseModal';overlay.className='exercise-modal-backdrop';overlay.innerHTML=`<section class="exercise-modal" role="dialog" aria-modal="true" aria-labelledby="routineExerciseTitle"><div class="row between"><div><h2 class="exercise-modal-title" id="routineExerciseTitle">${esc(ex.name)}</h2><p class="small muted">Modificar parámetros del ejercicio</p></div><button type="button" class="ghost" id="routineExClose" aria-label="Cerrar">✕</button></div><div class="fieldgrid"><div><label for="routineExSets">Número de series</label><input id="routineExSets" type="number" min="1" max="30" value="${Math.max(1,Number(ex.sets)||3)}"></div><div><label for="routineExReps">Repeticiones objetivo</label><input id="routineExReps" value="${esc(ex.reps||'8–12')}" placeholder="Ej. 8–12"></div><div><label for="routineExRest">Descanso (segundos)</label><input id="routineExRest" type="number" min="1" max="3600" value="${Math.max(1,Number(ex.rest)||120)}"></div><div><label for="routineExVariant">Variante / máquina</label><input id="routineExVariant" value="${esc(ex.variant||'')}" placeholder="Opcional"></div></div><label for="routineExNotes" style="margin-top:12px">Notas</label><textarea id="routineExNotes" rows="3" placeholder="Indicaciones técnicas o recordatorios">${esc(ex.notes||'')}</textarea><div class="actions"><button type="button" id="routineExSave">Guardar cambios</button><button type="button" class="ghost" id="routineExCancel">Cancelar</button></div></section>`;document.body.appendChild(overlay);const close=()=>overlay.remove();overlay.querySelector('#routineExClose').onclick=close;overlay.querySelector('#routineExCancel').onclick=close;overlay.onclick=e=>{if(e.target===overlay)close()};overlay.querySelector('#routineExSave').onclick=()=>{const sets=Math.floor(Number(overlay.querySelector('#routineExSets').value));const rest=Math.floor(Number(overlay.querySelector('#routineExRest').value));const reps=overlay.querySelector('#routineExReps').value.trim();if(!Number.isFinite(sets)||sets<1||sets>30){alert('Indica entre 1 y 30 series.');return}if(!Number.isFinite(rest)||rest<1||rest>3600){alert('El descanso debe estar entre 1 y 3600 segundos.');return}if(!reps){alert('Indica las repeticiones objetivo.');return}Object.assign(ex,{sets,reps,rest,variant:overlay.querySelector('#routineExVariant').value.trim(),notes:overlay.querySelector('#routineExNotes').value.trim()});close();redraw()};overlay.querySelector('#routineExSets').focus()}
  $('#addDay').onclick=(event)=>{event?.preventDefault();days.push({id:uid(),name:'Día '+(days.length+1),exercises:[]});redraw()};$('#saveRoutine').type='button';$('#saveRoutine').onclick=(event)=>{event?.preventDefault();try{const nameInput=$('#rName');if(!nameInput){alert('No se encuentra el campo del nombre de la rutina. Vuelve a abrir el editor.');return}const name=nameInput.value.trim();if(!name){alert('Escribe un nombre para la rutina.');nameInput.focus();return}if(!Array.isArray(days)||!days.length){alert('La rutina debe tener al menos un día.');return}if(!days.some(d=>Array.isArray(d.exercises)&&d.exercises.length)){if(!confirm('La rutina no tiene ejercicios. ¿Quieres guardarla vacía?'))return}copy.name=name;copy.days=days;copy.isTemplate=false;copy.active=isNew?true:!!copy.active;let previous=null;if(isNew){db.routines.push(copy)}else{const idx=db.routines.findIndex(x=>x.id===copy.id);if(idx<0){alert('No se encuentra la rutina que intentas guardar.');return}previous=db.routines[idx];db.routines[idx]=copy}if(!save()){if(isNew)db.routines=db.routines.filter(x=>x.id!==copy.id);else{const idx=db.routines.findIndex(x=>x.id===copy.id);if(idx>=0)db.routines[idx]=previous}return}if(isNew){window.chooseRoutine=copy.id;$('#main').innerHTML=chooseDayView(copy);bind();window.scrollTo(0,0)}else go('routines')}catch(error){console.error('Error al guardar la rutina:',error);alert('No se ha podido guardar la rutina. Tus cambios siguen en pantalla; prueba de nuevo o exporta una copia de seguridad.')}};$('#cancelRoutine').onclick=(event)=>{event?.preventDefault();go('routines')};bindDayControls()}
 

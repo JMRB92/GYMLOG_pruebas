@@ -18,7 +18,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aducción de cadera en máquina",
+            "referenceExerciseId": "excel-223"
           },
           {
             "id": "m0ue8kuzmw4twqx1",
@@ -29,7 +31,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Hip thrust en máquina específica",
+            "referenceExerciseId": "excel-217"
           },
           {
             "id": "gwe39zmmmw4twqx1",
@@ -40,7 +44,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Patada de glúteo en máquina tumbada",
+            "referenceExerciseId": "excel-218"
           },
           {
             "id": "g8f2t62emw4twqx1",
@@ -51,7 +57,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Sentadilla búlgara con mancuernas",
+            "referenceExerciseId": "excel-219"
           },
           {
             "id": "oigvj7hvmw4twqx1",
@@ -62,7 +70,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl femoral sentado en máquina de discos",
+            "referenceExerciseId": "excel-212"
           },
           {
             "id": "n8jjd298mw4twqx1",
@@ -73,7 +83,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Peso muerto rumano con barra",
+            "referenceExerciseId": "excel-214"
           }
         ]
       },
@@ -90,7 +102,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Jalón con agarre ancho",
+            "referenceExerciseId": "excel-29"
           },
           {
             "id": "x5tq2oglmw4twqx1",
@@ -101,7 +115,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Remo sentado en polea con agarre ancho",
+            "referenceExerciseId": "excel-162"
           },
           {
             "id": "3o0eivffmw4twqx1",
@@ -112,7 +128,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Remo alto en máquina (High Row)",
+            "referenceExerciseId": "excel-168"
           },
           {
             "id": "1nesz3idmw4twqx1",
@@ -123,7 +141,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aperturas inversas en máquina (Peck Deck invertido)",
+            "referenceExerciseId": "excel-180"
           },
           {
             "id": "nxr1nislmw4twqx1",
@@ -134,7 +154,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl con barra EZ",
+            "referenceExerciseId": "excel-54"
           },
           {
             "id": "b9g8x9ypmw4twqx1",
@@ -145,7 +167,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl alterno de martillo con mancuernas",
+            "referenceExerciseId": "excel-56"
           }
         ]
       },
@@ -162,7 +186,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aducción de cadera en máquina",
+            "referenceExerciseId": "excel-223"
           },
           {
             "id": "v3nlwjq6mw4twqx2",
@@ -173,7 +199,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Extensión de piernas en máquina",
+            "referenceExerciseId": "excel-203"
           },
           {
             "id": "v4f56m8lmw4twqx2",
@@ -183,8 +211,10 @@
             "sets": 3,
             "reps": "12, 10, 8",
             "rest": 120,
-            "notes": "",
-            "metric": "reps"
+            "notes": "El documento también indica 20 pasos; mantener ambas anotaciones sin reinterpretarlas.",
+            "metric": "reps",
+            "catalogName": "Zancadas caminando con mancuernas",
+            "referenceExerciseId": "excel-209"
           },
           {
             "id": "evo3x6mzmw4twqx2",
@@ -195,7 +225,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Sentadilla Hack en máquina",
+            "referenceExerciseId": "excel-204"
           },
           {
             "id": "2sjxwf2emw4twqx2",
@@ -206,7 +238,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Prensa pendular de piernas",
+            "referenceExerciseId": "excel-205"
           }
         ]
       },
@@ -223,7 +257,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Elevaciones laterales en máquina",
+            "referenceExerciseId": "excel-181"
           },
           {
             "id": "ksg3o4rcmw4twqx2",
@@ -234,7 +270,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press militar de pie con barra",
+            "referenceExerciseId": "excel-189"
           },
           {
             "id": "nrc1qarzmw4twqx2",
@@ -245,7 +283,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Elevación frontal en polea con barra recta",
+            "referenceExerciseId": "excel-187"
           },
           {
             "id": "ol48ynbzmw4twqx2",
@@ -256,7 +296,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aperturas en máquina Peck Deck o Contractora",
+            "referenceExerciseId": "excel-3"
           },
           {
             "id": "2s5lrqy8mw4twqx2",
@@ -267,7 +309,9 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Extensión de tríceps en polea alta con barra Z",
+            "referenceExerciseId": "excel-198"
           },
           {
             "id": "3k2dvyoimw4twqx2",
@@ -278,23 +322,99 @@
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Fondos de tríceps en máquina sentado",
+            "referenceExerciseId": "excel-199"
           },
           {
             "id": "fj3g64k3mw4twqx2",
             "exerciseId": "wukd3h7xmw4twqx2",
             "name": "Curl de bíceps en polea con barra Z",
             "variant": "",
+            "sets": 0,
+            "reps": "",
+            "rest": 120,
+            "notes": "El PDF no especifica series ni repeticiones; se pueden añadir manualmente durante el entrenamiento.",
+            "metric": "reps",
+            "catalogName": "Curl de bíceps en polea baja con barra Z",
+            "referenceExerciseId": "excel-193"
+          }
+        ]
+      },
+      {
+        "id": "gymlog114-2naoxvgdmw4twqx1-d5",
+        "name": "Día 5 — Piernas completas",
+        "exercises": [
+          {
+            "id": "gymlog114-slot-2naoxvgdmw4twqx1-5-1",
+            "exerciseId": "gymlog114-2naoxvgdmw4twqx1-e5-1",
+            "name": "Máquina aductores",
+            "variant": "",
             "sets": 3,
             "reps": "12, 10, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aducción de cadera en máquina",
+            "referenceExerciseId": "excel-223"
+          },
+          {
+            "id": "gymlog114-slot-2naoxvgdmw4twqx1-5-2",
+            "exerciseId": "gymlog114-2naoxvgdmw4twqx1-e5-2",
+            "name": "Máquina femoral sentado",
+            "variant": "",
+            "sets": 3,
+            "reps": "12, 10, 8",
+            "rest": 120,
+            "notes": "",
+            "metric": "reps",
+            "catalogName": "Curl femoral sentado en máquina de discos",
+            "referenceExerciseId": "excel-212"
+          },
+          {
+            "id": "gymlog114-slot-2naoxvgdmw4twqx1-5-3",
+            "exerciseId": "gymlog114-2naoxvgdmw4twqx1-e5-3",
+            "name": "Máquina patada de glúteo tumbada",
+            "variant": "",
+            "sets": 3,
+            "reps": "12, 10, 8",
+            "rest": 120,
+            "notes": "",
+            "metric": "reps",
+            "catalogName": "Patada de glúteo en máquina tumbada",
+            "referenceExerciseId": "excel-218"
+          },
+          {
+            "id": "gymlog114-slot-2naoxvgdmw4twqx1-5-4",
+            "exerciseId": "gymlog114-2naoxvgdmw4twqx1-e5-4",
+            "name": "Máquina extensión de cuádriceps",
+            "variant": "",
+            "sets": 3,
+            "reps": "12, 10, 8",
+            "rest": 120,
+            "notes": "",
+            "metric": "reps",
+            "catalogName": "Extensión de piernas en máquina",
+            "referenceExerciseId": "excel-203"
+          },
+          {
+            "id": "gymlog114-slot-2naoxvgdmw4twqx1-5-5",
+            "exerciseId": "gymlog114-2naoxvgdmw4twqx1-e5-5",
+            "name": "Ejercicio de silla para cuádriceps",
+            "variant": "",
+            "sets": 3,
+            "reps": "1 minuto",
+            "rest": 120,
+            "notes": "Aumentar progresivamente el tiempo. Duración por serie: 60 segundos.",
+            "metric": "duration",
+            "catalogName": "Sentadilla isométrica apoyado sobre la pared",
+            "referenceExerciseId": "excel-114"
           }
         ]
       }
     ],
-    "createdAt": "2026-11-06T10:25:46.310Z"
+    "createdAt": "2026-11-06T10:25:46.310Z",
+    "sourceNotes": "PDF original: 3 series de 12, 10 y 8 repeticiones, salvo las excepciones expresas. Calentamiento previo; descanso de 2 minutos; después 30 minutos de cardio en cinta o bicicleta."
   },
   {
     "id": "v9qglsh2mw4twqx2",
@@ -315,7 +435,10 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aperturas en máquina Peck Deck o Contractora",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-3"
           },
           {
             "id": "6zhuwvvpmw4twqx2",
@@ -326,7 +449,10 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press de banca en máquina sentado",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-9"
           },
           {
             "id": "3z5pz7dkmw4twqx2",
@@ -337,7 +463,10 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press inclinado en máquina",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-144"
           },
           {
             "id": "8gmldl95mw4twqx2",
@@ -348,7 +477,10 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press declinado en máquina",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-145"
           },
           {
             "id": "4t43i1dfmw4twqx2",
@@ -359,18 +491,23 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Extensión de tríceps en polea alta con barra Z",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-198"
           },
           {
             "id": "f4h1xmezmw4twqx2",
             "exerciseId": "13k9nf2ymw4twqx2",
             "name": "Máquina fondo tríceps",
             "variant": "",
-            "sets": 4,
-            "reps": "12, 10, 8, 6",
+            "sets": 0,
+            "reps": "",
             "rest": 120,
-            "notes": "",
-            "metric": "reps"
+            "notes": "PDF: no se indican series, repeticiones ni RIR.",
+            "metric": "reps",
+            "catalogName": "Fondos de tríceps en máquina sentado",
+            "referenceExerciseId": "excel-199"
           }
         ]
       },
@@ -381,13 +518,16 @@
           {
             "id": "4he0fkl1mw4twqx4",
             "exerciseId": "1bez171omw4twqx1",
-            "name": "Jalón al pecho",
+            "name": "Jalón",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Jalón con agarre ancho",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-29"
           },
           {
             "id": "i9h793a5mw4twqx4",
@@ -398,18 +538,24 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Remo abierto en máquina",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-165"
           },
           {
             "id": "9zrek2k0mw4twqx4",
             "exerciseId": "ochvnri7mw4twqx4",
-            "name": "Máquina espalda alta / Pulldown",
+            "name": "Máquina espalda alta",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Remo alto en máquina (High Row)",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-168"
           },
           {
             "id": "9io3hgicmw4twqx4",
@@ -420,7 +566,10 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Remo en máquina",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-30"
           },
           {
             "id": "8omydwn4mw4twqx4",
@@ -431,7 +580,10 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl de bíceps unilateral en polea baja",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-194"
           },
           {
             "id": "7wnk7k7omw4twqx4",
@@ -442,7 +594,10 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl de bíceps en máquina de discos",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-196"
           }
         ]
       },
@@ -459,7 +614,10 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aducción de cadera en máquina",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-223"
           },
           {
             "id": "wqid2dj6mw4twqx4",
@@ -470,7 +628,10 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl femoral sentado en máquina de discos",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-212"
           },
           {
             "id": "has0a7hfmw4twqx4",
@@ -481,18 +642,23 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Extensión de piernas en máquina",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-203"
           },
           {
             "id": "kgf893crmw4twqx4",
             "exerciseId": "6cilh8ucmw4twqwy",
-            "name": "Zancadas en multipower o con mancuernas",
+            "name": "Zancadas",
             "variant": "",
-            "sets": 3,
+            "sets": 0,
             "reps": "20 pasos",
             "rest": 120,
-            "notes": "",
-            "metric": "reps"
+            "notes": "PDF: 20 pasos, sin número de series ni RIR. No imponer tres series.",
+            "metric": "reps",
+            "catalogName": "Zancadas caminando con mancuernas",
+            "referenceExerciseId": "excel-209"
           },
           {
             "id": "ojzb6z4tmw4twqx4",
@@ -502,8 +668,11 @@
             "sets": 3,
             "reps": "10",
             "rest": 120,
-            "notes": "",
-            "metric": "reps"
+            "notes": "PDF: 10 × 3 (10 repeticiones, 3 series).",
+            "metric": "reps",
+            "catalogName": "Hip thrust en máquina específica",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-217"
           },
           {
             "id": "18t0qjtamw4twqx4",
@@ -514,145 +683,182 @@
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Prensa pendular de piernas",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-205"
           }
         ]
       },
       {
         "id": "6707a51zmw4twqx4",
-        "name": "DÍA 4 — HOMBROS Y ABDOMEN",
+        "name": "DÍA 4 — HOMBROS",
         "exercises": [
           {
             "id": "nhq9pjwlmw4twqx4",
             "exerciseId": "vw6vhxjpmw4twqx4",
-            "name": "Press militar en máquina",
+            "name": "Máquina vuelo pájaro",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Pájaros en máquina",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-179"
           },
           {
             "id": "b97dj8b8mw4twqx4",
             "exerciseId": "uuw9jw4smw4twqx4",
-            "name": "Elevaciones laterales en polea o máquina",
+            "name": "Press militar agarre frontal",
             "variant": "",
             "sets": 4,
-            "reps": "15, 12, 10, 10",
+            "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press de hombros en máquina con agarre frontal",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-185"
           },
           {
             "id": "sa5t4l02mw4twqx4",
             "exerciseId": "ez4ggc19mw4twqx2",
-            "name": "Pájaro / Deltoides posterior en máquina de aperturas",
+            "name": "Hombro frontal polea barra recta",
             "variant": "",
             "sets": 4,
-            "reps": "15, 12, 10, 10",
+            "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Elevación frontal en polea con barra recta",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-187"
           },
           {
             "id": "ketcphvpmw4twqx5",
             "exerciseId": "bibu6y94mw4twqx5",
-            "name": "Encogimientos de hombros en máquina / multipower",
+            "name": "Máquina asistida hombro trasero",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 8",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aperturas inversas en máquina (Peck Deck invertido)",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-180"
           },
           {
             "id": "4o1ighmrmw4twqx5",
             "exerciseId": "kgu8q1xemw4twqx5",
-            "name": "Crunch abdominal en máquina / polea alta",
-            "variant": "",
-            "sets": 4,
-            "reps": "15, 12, 10, 10",
-            "rest": 120,
-            "notes": "",
-            "metric": "reps"
-          },
-          {
-            "id": "2691f27e9434",
-            "exerciseId": "custom-912258f9",
-            "name": "Elevaciones de piernas colgado o en torre",
-            "variant": "",
-            "sets": 3,
-            "reps": "al fallo técnico",
-            "rest": 120,
-            "notes": "",
-            "metric": "reps"
-          }
-        ]
-      },
-      {
-        "id": "h9snusggmw4twqx5",
-        "name": "DÍA 5 — PIERNA (ÉNFASIS GLÚTEOS Y CADENA POSTERIOR) + BRAZOS EXTRA",
-        "exercises": [
-          {
-            "id": "cezu9xqomw4twqx5",
-            "exerciseId": "bgrlczdimw4twqx5",
-            "name": "Prensa inclinada / pendular (pies altos)",
+            "name": "Vuelo pájaro mancuerna",
             "variant": "",
             "sets": 4,
             "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Pájaros con mancuernas inclinado",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-192"
+          }
+        ]
+      },
+      {
+        "id": "h9snusggmw4twqx5",
+        "name": "DÍA 5 — TREN SUPERIOR — ESPALDA, PECHO Y BRAZOS",
+        "exercises": [
+          {
+            "id": "cezu9xqomw4twqx5",
+            "exerciseId": "bgrlczdimw4twqx5",
+            "name": "Jalón agarre estrecho",
+            "variant": "",
+            "sets": 4,
+            "reps": "12, 10, 8, 6",
+            "rest": 120,
+            "notes": "",
+            "metric": "reps",
+            "catalogName": "Jalón al pecho con agarre cerrado",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-31"
           },
           {
             "id": "7m8q0mk8mw4twqx5",
             "exerciseId": "tisqw3ltmw4twqx5",
-            "name": "Peso muerto rumano en multipower o máquina",
+            "name": "Máquina \"T\" agarre superior",
             "variant": "",
             "sets": 4,
-            "reps": "10, 8, 8, 6",
+            "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Remo en máquina T con agarre superior",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-170"
           },
           {
             "id": "bxy6a07fmw4twqx5",
             "exerciseId": "euh2yu8jmw4twqx5",
-            "name": "Máquina abductores / Glúteos",
+            "name": "Press plano",
             "variant": "",
             "sets": 4,
-            "reps": "15, 12, 10, 10",
+            "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press de banca en máquina sentado",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-9"
           },
           {
             "id": "d0sk9a4ymw4twqx5",
             "exerciseId": "0is23kvcmw4twqx5",
-            "name": "Elevación de talones en máquina (gemelos)",
+            "name": "Press superior",
             "variant": "",
             "sets": 4,
-            "reps": "15, 12, 10, 10",
+            "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press inclinado en máquina",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-144"
           },
           {
             "id": "aclikwxcmw4twqx5",
             "exerciseId": "oftrnoeqmw4twqx5",
-            "name": "Super-serie Curl Martillo en polea + Extensión tríceps cuerda",
+            "name": "Tríceps polea barra Z",
             "variant": "",
-            "sets": 3,
-            "reps": "12, 10, 8",
+            "sets": 4,
+            "reps": "12, 10, 8, 6",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Extensión de tríceps en polea alta con barra Z",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-198"
+          },
+          {
+            "id": "gymlog114-slot-v9qglsh2mw4twqx2-5-6",
+            "exerciseId": "gymlog114-v9qglsh2mw4twqx2-e5-6",
+            "name": "Bíceps barra Z",
+            "variant": "",
+            "sets": 4,
+            "reps": "12, 10, 8, 6",
+            "rest": 120,
+            "notes": "",
+            "metric": "reps",
+            "catalogName": "Curl con barra EZ",
+            "rir": "indicado sin valor",
+            "referenceExerciseId": "excel-54"
           }
         ]
       }
     ],
-    "createdAt": "2026-11-06T10:25:46.313Z"
+    "createdAt": "2026-11-06T10:25:46.313Z",
+    "sourceNotes": "PDF original: mantener el RIR según planificación; no se indican valores numéricos. Las series sin especificar no se han inventado."
   },
   {
     "id": "upi9209hmw4twqwy",
@@ -674,7 +880,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0198"
+            "referenceExerciseId": "excel-29",
+            "catalogName": "Jalón con agarre ancho"
           },
           {
             "id": "j8vucs8nmw4twqwy",
@@ -686,7 +893,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0025"
+            "referenceExerciseId": "excel-9",
+            "catalogName": "Press de banca en máquina sentado"
           },
           {
             "id": "wwd1uplrmw4twqwy",
@@ -698,7 +906,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "2611"
+            "referenceExerciseId": "excel-206",
+            "catalogName": "Prensa de piernas inclinada a 45°"
           },
           {
             "id": "0x838vkemw4twqwy",
@@ -710,7 +919,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0599"
+            "referenceExerciseId": "excel-99",
+            "catalogName": "Curl de piernas sentado"
           },
           {
             "id": "k90tbz24mw4twqwy",
@@ -722,7 +932,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0178"
+            "referenceExerciseId": "excel-81",
+            "catalogName": "Elevación lateral con cable a una mano"
           },
           {
             "id": "m4x4afqkmw4twqwy",
@@ -734,7 +945,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0190"
+            "referenceExerciseId": "excel-193",
+            "catalogName": "Curl de bíceps en polea baja con barra Z"
           },
           {
             "id": "6doa5adkmw4twqwy",
@@ -746,7 +958,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "1723"
+            "referenceExerciseId": "excel-15",
+            "catalogName": "Extensión de tríceps en polea con cuerda"
           },
           {
             "id": "gz1gj5famw4twqwy",
@@ -758,7 +971,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0175"
+            "referenceExerciseId": "excel-68",
+            "catalogName": "Abdominales con cuerda en polea alta"
           }
         ]
       },
@@ -776,7 +990,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0208"
+            "referenceExerciseId": "excel-161",
+            "catalogName": "Remo sentado en polea baja"
           },
           {
             "id": "wxleot74mw4twqwy",
@@ -788,7 +1003,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "1269"
+            "referenceExerciseId": "excel-146",
+            "catalogName": "Press de pecho en polea baja"
           },
           {
             "id": "5cbmi03wmw4twqwy",
@@ -800,7 +1016,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0743"
+            "referenceExerciseId": "excel-204",
+            "catalogName": "Sentadilla Hack en máquina"
           },
           {
             "id": "g3tpw8bwmw4twqwy",
@@ -812,7 +1029,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0432"
+            "referenceExerciseId": "excel-214",
+            "catalogName": "Peso muerto rumano con barra"
           },
           {
             "id": "butticg3mw4twqwy",
@@ -824,7 +1042,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0602"
+            "referenceExerciseId": "excel-179",
+            "catalogName": "Pájaros en máquina"
           },
           {
             "id": "37ho1xmpmw4twqwz",
@@ -836,7 +1055,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0298"
+            "referenceExerciseId": "excel-56",
+            "catalogName": "Curl alterno de martillo con mancuernas"
           },
           {
             "id": "x564f7wemw4twqwz",
@@ -848,7 +1068,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0194"
+            "referenceExerciseId": "excel-201",
+            "catalogName": "Extensión de tríceps sobre la cabeza en polea con cuerda"
           },
           {
             "id": "jegb8mtymw4twqwz",
@@ -860,7 +1081,8 @@
             "rest": 120,
             "notes": "",
             "metric": "duration",
-            "referenceExerciseId": "0464"
+            "referenceExerciseId": "excel-69",
+            "catalogName": "Plancha"
           }
         ]
       }
@@ -887,7 +1109,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0025"
+            "referenceExerciseId": "excel-9",
+            "catalogName": "Press de banca en máquina sentado"
           },
           {
             "id": "sw08qjsgmw4twqx1",
@@ -899,7 +1122,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0314"
+            "referenceExerciseId": "excel-2",
+            "catalogName": "Press banca inclinado con mancuernas"
           },
           {
             "id": "36jxdctpmw4twqx1",
@@ -911,7 +1135,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "1269"
+            "referenceExerciseId": "excel-146",
+            "catalogName": "Press de pecho en polea baja"
           },
           {
             "id": "y6pzm2jzmw4twqx1",
@@ -923,7 +1148,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "1269"
+            "referenceExerciseId": "excel-151",
+            "catalogName": "Aperturas en polea media"
           }
         ]
       },
@@ -941,7 +1167,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0198"
+            "referenceExerciseId": "excel-29",
+            "catalogName": "Jalón con agarre ancho"
           },
           {
             "id": "b472jma3mw4twqx1",
@@ -953,7 +1180,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0208"
+            "referenceExerciseId": "excel-161",
+            "catalogName": "Remo sentado en polea baja"
           },
           {
             "id": "srvtb0lbmw4twqx1",
@@ -965,7 +1193,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0208"
+            "referenceExerciseId": "excel-164",
+            "catalogName": "Remo unilateral sentado en polea baja"
           },
           {
             "id": "qes588j2mw4twqx1",
@@ -977,7 +1206,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0238"
+            "referenceExerciseId": "excel-176",
+            "catalogName": "Pullover en polea"
           },
           {
             "id": "0dsv9lpimw4twqx1",
@@ -989,7 +1219,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0602"
+            "referenceExerciseId": "excel-179",
+            "catalogName": "Pájaros en máquina"
           }
         ]
       },
@@ -1007,7 +1238,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0743"
+            "referenceExerciseId": "excel-204",
+            "catalogName": "Sentadilla Hack en máquina"
           },
           {
             "id": "6m3z12tkmw4twqx1",
@@ -1019,7 +1251,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "2611"
+            "referenceExerciseId": "excel-206",
+            "catalogName": "Prensa de piernas inclinada a 45°"
           },
           {
             "id": "ibljvyetmw4twqx1",
@@ -1031,7 +1264,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0432"
+            "referenceExerciseId": "excel-214",
+            "catalogName": "Peso muerto rumano con barra"
           },
           {
             "id": "a5f44ggdmw4twqx1",
@@ -1043,7 +1277,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0599"
+            "referenceExerciseId": "excel-99",
+            "catalogName": "Curl de piernas sentado"
           },
           {
             "id": "j7jyim3umw4twqx1",
@@ -1055,7 +1290,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0585"
+            "referenceExerciseId": "excel-203",
+            "catalogName": "Extensión de piernas en máquina"
           },
           {
             "id": "jhcc8awxmw4twqx1",
@@ -1067,7 +1303,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0605"
+            "referenceExerciseId": "excel-227",
+            "catalogName": "Elevación de gemelos de pie en máquina"
           }
         ]
       },
@@ -1085,7 +1322,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0765"
+            "referenceExerciseId": "excel-184",
+            "catalogName": "Press de hombros en máquina"
           },
           {
             "id": "33ddry1pmw4twqx1",
@@ -1097,7 +1335,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0178"
+            "referenceExerciseId": "excel-81",
+            "catalogName": "Elevación lateral con cable a una mano"
           },
           {
             "id": "l8r9ai2jmw4twqx1",
@@ -1109,7 +1348,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0602"
+            "referenceExerciseId": "excel-179",
+            "catalogName": "Pájaros en máquina"
           },
           {
             "id": "x612fgaimw4twqx1",
@@ -1121,7 +1361,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0203"
+            "referenceExerciseId": "excel-188",
+            "catalogName": "Face pull en polea con cuerda"
           }
         ]
       },
@@ -1139,7 +1380,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0190"
+            "referenceExerciseId": "excel-193",
+            "catalogName": "Curl de bíceps en polea baja con barra Z"
           },
           {
             "id": "dnkx5hphmw4twqx1",
@@ -1151,7 +1393,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0318"
+            "referenceExerciseId": "excel-57",
+            "catalogName": "Curl inclinado con mancuernas"
           },
           {
             "id": "zpej2watmw4twqx1",
@@ -1163,7 +1406,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0298"
+            "referenceExerciseId": "excel-56",
+            "catalogName": "Curl alterno de martillo con mancuernas"
           },
           {
             "id": "k73d10kymw4twqx1",
@@ -1175,7 +1419,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "1723"
+            "referenceExerciseId": "excel-15",
+            "catalogName": "Extensión de tríceps en polea con cuerda"
           },
           {
             "id": "qgse2uubmw4twqx1",
@@ -1187,7 +1432,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0194"
+            "referenceExerciseId": "excel-201",
+            "catalogName": "Extensión de tríceps sobre la cabeza en polea con cuerda"
           }
         ]
       }
@@ -1214,7 +1460,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0025"
+            "referenceExerciseId": "excel-9",
+            "catalogName": "Press de banca en máquina sentado"
           },
           {
             "id": "6xm26i1rmw4twqx1",
@@ -1226,7 +1473,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0314"
+            "referenceExerciseId": "excel-2",
+            "catalogName": "Press banca inclinado con mancuernas"
           },
           {
             "id": "ro9vetxmmw4twqx1",
@@ -1238,7 +1486,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "1269"
+            "referenceExerciseId": "excel-146",
+            "catalogName": "Press de pecho en polea baja"
           },
           {
             "id": "m152fsdcmw4twqx1",
@@ -1250,7 +1499,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0178"
+            "referenceExerciseId": "excel-81",
+            "catalogName": "Elevación lateral con cable a una mano"
           },
           {
             "id": "s9adifjtmw4twqx1",
@@ -1262,7 +1512,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "1723"
+            "referenceExerciseId": "excel-15",
+            "catalogName": "Extensión de tríceps en polea con cuerda"
           },
           {
             "id": "hyl563gcmw4twqx1",
@@ -1274,7 +1525,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0194"
+            "referenceExerciseId": "excel-201",
+            "catalogName": "Extensión de tríceps sobre la cabeza en polea con cuerda"
           }
         ]
       },
@@ -1292,7 +1544,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0198"
+            "referenceExerciseId": "excel-29",
+            "catalogName": "Jalón con agarre ancho"
           },
           {
             "id": "k9lx2y42mw4twqx1",
@@ -1304,7 +1557,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0208"
+            "referenceExerciseId": "excel-161",
+            "catalogName": "Remo sentado en polea baja"
           },
           {
             "id": "i4yqsak3mw4twqx1",
@@ -1316,7 +1570,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0208"
+            "referenceExerciseId": "excel-164",
+            "catalogName": "Remo unilateral sentado en polea baja"
           },
           {
             "id": "z3hinn10mw4twqx1",
@@ -1328,7 +1583,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0602"
+            "referenceExerciseId": "excel-179",
+            "catalogName": "Pájaros en máquina"
           },
           {
             "id": "9of1c8zomw4twqx1",
@@ -1340,7 +1596,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0190"
+            "referenceExerciseId": "excel-193",
+            "catalogName": "Curl de bíceps en polea baja con barra Z"
           },
           {
             "id": "kop66mpymw4twqx1",
@@ -1352,7 +1609,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0298"
+            "referenceExerciseId": "excel-56",
+            "catalogName": "Curl alterno de martillo con mancuernas"
           }
         ]
       },
@@ -1370,7 +1628,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "2611"
+            "referenceExerciseId": "excel-206",
+            "catalogName": "Prensa de piernas inclinada a 45°"
           },
           {
             "id": "14tpf870mw4twqx1",
@@ -1382,7 +1641,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0432"
+            "referenceExerciseId": "excel-214",
+            "catalogName": "Peso muerto rumano con barra"
           },
           {
             "id": "gq1cjq24mw4twqx1",
@@ -1394,7 +1654,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0599"
+            "referenceExerciseId": "excel-99",
+            "catalogName": "Curl de piernas sentado"
           },
           {
             "id": "85jc4kmwmw4twqx1",
@@ -1406,7 +1667,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0585"
+            "referenceExerciseId": "excel-203",
+            "catalogName": "Extensión de piernas en máquina"
           },
           {
             "id": "wvkhl4oxmw4twqx1",
@@ -1418,7 +1680,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0605"
+            "referenceExerciseId": "excel-227",
+            "catalogName": "Elevación de gemelos de pie en máquina"
           },
           {
             "id": "trhqmtxwmw4twqx1",
@@ -1430,7 +1693,8 @@
             "rest": 120,
             "notes": "",
             "metric": "reps",
-            "referenceExerciseId": "0175"
+            "referenceExerciseId": "excel-68",
+            "catalogName": "Abdominales con cuerda en polea alta"
           },
           {
             "id": "736vmjoomw4twqx1",
@@ -1442,7 +1706,8 @@
             "rest": 120,
             "notes": "",
             "metric": "duration",
-            "referenceExerciseId": "0464"
+            "referenceExerciseId": "excel-69",
+            "catalogName": "Plancha"
           }
         ]
       }
@@ -1458,7 +1723,7 @@
     "days": [
       {
         "id": "6dwyqrh9mw4twqx1",
-        "name": "LUNES — PIERNA A",
+        "name": "Día 1 — Lunes — Pierna A",
         "exercises": [
           {
             "id": "5osnbcopmw4twqx1",
@@ -1469,7 +1734,9 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aducción de cadera en máquina",
+            "referenceExerciseId": "excel-223"
           },
           {
             "id": "bvqihxmhmw4twqx1",
@@ -1480,7 +1747,9 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Extensión de piernas en máquina",
+            "referenceExerciseId": "excel-203"
           },
           {
             "id": "or8tpu6umw4twqx1",
@@ -1491,7 +1760,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Zancadas caminando con mancuernas",
+            "referenceExerciseId": "excel-209"
           },
           {
             "id": "7tpcjgd4mw4twqx1",
@@ -1502,7 +1773,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Prensa de piernas inclinada a 45°",
+            "referenceExerciseId": "excel-206"
           },
           {
             "id": "afm0ehn7mw4twqx1",
@@ -1513,7 +1786,9 @@
             "reps": "15–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Elevación de gemelos de pie en máquina",
+            "referenceExerciseId": "excel-227"
           },
           {
             "id": "vqhnqduhmw4twqx1",
@@ -1524,13 +1799,15 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Sentadilla Hack en máquina",
+            "referenceExerciseId": "excel-204"
           }
         ]
       },
       {
         "id": "wuy1ea8rmw4twqx1",
-        "name": "MARTES — PECHO + HOMBRO + TRÍCEPS",
+        "name": "Día 2 — Martes — Pecho, hombro y tríceps",
         "exercises": [
           {
             "id": "b0cm0etjmw4twqx1",
@@ -1541,7 +1818,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press inclinado en máquina",
+            "referenceExerciseId": "excel-144"
           },
           {
             "id": "wkxajpvgmw4twqx1",
@@ -1552,7 +1831,9 @@
             "reps": "6–10",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press de banca en máquina sentado",
+            "referenceExerciseId": "excel-9"
           },
           {
             "id": "ejquj9y6mw4twqx1",
@@ -1563,7 +1844,9 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aperturas en máquina Peck Deck o Contractora",
+            "referenceExerciseId": "excel-3"
           },
           {
             "id": "g67nfdf3mw4twqx1",
@@ -1574,7 +1857,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press de pecho en polea baja",
+            "referenceExerciseId": "excel-146"
           },
           {
             "id": "hedco67xmw4twqx1",
@@ -1585,7 +1870,9 @@
             "reps": "12–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Elevaciones laterales en máquina",
+            "referenceExerciseId": "excel-181"
           },
           {
             "id": "yors5w0bmw4twqx1",
@@ -1596,24 +1883,28 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Extensión de tríceps en polea con cuerda",
+            "referenceExerciseId": "excel-15"
           },
           {
             "id": "n9ccll98mw4twqx1",
             "exerciseId": "r21qkcs5mw4twqwy",
-            "name": "Extensión tríceps sobre cabeza",
+            "name": "Extensión de tríceps sobre cabeza",
             "variant": "",
             "sets": 3,
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Extensión de tríceps sobre la cabeza en polea con cuerda",
+            "referenceExerciseId": "excel-201"
           }
         ]
       },
       {
         "id": "96zl8a46mw4twqx1",
-        "name": "MIÉRCOLES — ESPALDA + BÍCEPS",
+        "name": "Día 3 — Miércoles — Espalda y bíceps",
         "exercises": [
           {
             "id": "p6h335m5mw4twqx1",
@@ -1624,7 +1915,9 @@
             "reps": "6–10",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Jalón con agarre ancho",
+            "referenceExerciseId": "excel-29"
           },
           {
             "id": "8uxw5zk0mw4twqx1",
@@ -1635,7 +1928,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Remo sentado en polea baja",
+            "referenceExerciseId": "excel-161"
           },
           {
             "id": "rmj6e5rimw4twqx1",
@@ -1646,7 +1941,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Remo unilateral en máquina",
+            "referenceExerciseId": "excel-167"
           },
           {
             "id": "tzie6rmnmw4twqx1",
@@ -1657,7 +1954,9 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Pullover en polea con cuerda",
+            "referenceExerciseId": "excel-177"
           },
           {
             "id": "yvzchiosmw4twqx1",
@@ -1668,7 +1967,9 @@
             "reps": "12–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Face pull en polea con cuerda",
+            "referenceExerciseId": "excel-188"
           },
           {
             "id": "ijbx6ywrmw4twqx1",
@@ -1679,7 +1980,9 @@
             "reps": "12–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aperturas inversas en máquina (Peck Deck invertido)",
+            "referenceExerciseId": "excel-180"
           },
           {
             "id": "usgizprtmw4twqx1",
@@ -1690,7 +1993,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl alterno con mancuernas",
+            "referenceExerciseId": "excel-52"
           },
           {
             "id": "g80e3jm5mw4twqx1",
@@ -1701,24 +2006,28 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl inclinado con mancuernas",
+            "referenceExerciseId": "excel-57"
           }
         ]
       },
       {
         "id": "q5ukxyrhmw4twqx1",
-        "name": "JUEVES — PIERNA B + EXTRAS",
+        "name": "Día 4 — Jueves — Pierna B y extras",
         "exercises": [
           {
             "id": "auwk3kx6mw4twqx1",
             "exerciseId": "8htnbq4umw4twqwy",
-            "name": "Abductor (apertura)",
+            "name": "Abductor (abre)",
             "variant": "",
             "sets": 3,
             "reps": "12–20",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Abducción de cadera en máquina",
+            "referenceExerciseId": "excel-225"
           },
           {
             "id": "jw0r4gaxmw4twqx1",
@@ -1729,7 +2038,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Hip thrust en máquina específica",
+            "referenceExerciseId": "excel-217"
           },
           {
             "id": "ahp679x4mw4twqx1",
@@ -1740,7 +2051,9 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl femoral sentado en máquina de discos",
+            "referenceExerciseId": "excel-212"
           },
           {
             "id": "xy411dnvmw4twqx1",
@@ -1751,7 +2064,9 @@
             "reps": "8–10",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Peso muerto rumano con barra",
+            "referenceExerciseId": "excel-214"
           },
           {
             "id": "u7s3iw9tmw4twqx1",
@@ -1762,7 +2077,9 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Curl de pierna tumbado en máquina de femoral",
+            "referenceExerciseId": "excel-97"
           },
           {
             "id": "61nzdngzmw4twqx1",
@@ -1773,7 +2090,9 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Hiperextensiones lumbares con lastre",
+            "referenceExerciseId": "excel-178"
           },
           {
             "id": "jbk37i9omw4twqx1",
@@ -1784,7 +2103,9 @@
             "reps": "8–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Abdominales con rueda",
+            "referenceExerciseId": "excel-230"
           },
           {
             "id": "ym8xqrhhmw4twqx1",
@@ -1792,16 +2113,18 @@
             "name": "Pallof press",
             "variant": "",
             "sets": 2,
-            "reps": "10–15 por lado",
+            "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Pallof press en polea",
+            "referenceExerciseId": "excel-231"
           }
         ]
       },
       {
         "id": "umau7109mw4twqx1",
-        "name": "SÁBADO — PECHO + ESPALDA",
+        "name": "Día 5 — Sábado — Pecho, espalda y hombro",
         "exercises": [
           {
             "id": "euzb1ungmw4twqx1",
@@ -1812,7 +2135,9 @@
             "reps": "6–10",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Press inclinado en máquina",
+            "referenceExerciseId": "excel-144"
           },
           {
             "id": "l49p4xuxmw4twqx1",
@@ -1823,7 +2148,9 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Aperturas en máquina Peck Deck o Contractora",
+            "referenceExerciseId": "excel-3"
           },
           {
             "id": "w52e4ywsmw4twqx1",
@@ -1834,7 +2161,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Jalón unilateral en polea",
+            "referenceExerciseId": "excel-171"
           },
           {
             "id": "4mjtwznfmw4twqx1",
@@ -1845,7 +2174,9 @@
             "reps": "8–12",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Remo en máquina con apoyo de pecho",
+            "referenceExerciseId": "excel-169"
           },
           {
             "id": "40s9t10emw4twqx1",
@@ -1856,7 +2187,9 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Face pull en polea con cuerda",
+            "referenceExerciseId": "excel-188"
           },
           {
             "id": "liepwjk7mw4twqx1",
@@ -1867,22 +2200,42 @@
             "reps": "10–15",
             "rest": 120,
             "notes": "",
-            "metric": "reps"
+            "metric": "reps",
+            "catalogName": "Elevaciones laterales en máquina",
+            "referenceExerciseId": "excel-181"
           },
           {
             "id": "76euh6dnmw4twqx1",
             "exerciseId": "bcv5uzttmw4twqwy",
-            "name": "Bíceps / Tríceps alternados",
+            "name": "Bíceps",
             "variant": "",
             "sets": 3,
             "reps": "15–20",
             "rest": 120,
-            "notes": "",
-            "metric": "reps"
+            "notes": "Elegir un ejercicio de bíceps; no se ha especificado cuál.",
+            "metric": "reps",
+            "catalogName": "Bíceps (ejercicio por definir)",
+            "referenceExerciseId": "",
+            "catalogStatus": "pending"
+          },
+          {
+            "id": "gymlog114-slot-saaf23izmw4twqx1-5-8",
+            "exerciseId": "gymlog114-saaf23izmw4twqx1-e5-8",
+            "name": "Tríceps",
+            "variant": "",
+            "sets": 3,
+            "reps": "15–20",
+            "rest": 120,
+            "notes": "Elegir un ejercicio de tríceps; no se ha especificado cuál.",
+            "metric": "reps",
+            "catalogName": "Tríceps (ejercicio por definir)",
+            "referenceExerciseId": "",
+            "catalogStatus": "pending"
           }
         ]
       }
     ],
-    "createdAt": "2026-11-06T10:25:46.309Z"
+    "createdAt": "2026-11-06T10:25:46.309Z",
+    "sourceNotes": "RIR general recomendado 1–2 según la indicación de la rutina; selección exacta del ejercicio de bíceps y tríceps del Día 5 pendiente."
   }
 ]

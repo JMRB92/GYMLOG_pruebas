@@ -1,3 +1,13 @@
+# Registro de cambios
+
+## v1.13 — Fichas de ejercicio y calculadoras
+- Los nombres y miniaturas de Biblioteca abren ficha con imagen y vídeo/GIF si el Excel contiene una URL.
+- Acceso a la ficha también desde entrenamiento, plantillas, editor e historial.
+- Se indica explícitamente cuándo no hay material vinculado; sin vídeos inventados ni traducciones de nombres.
+- Nueva sección Calculadoras: GET, TMB e IMC, con fórmulas y unidades métricas/imperiales; procesamiento local.
+- Navegación inferior adaptada a siete secciones, todas visibles en móvil.
+- Catálogo Excel y rutinas JSON siguen externos y editables, sin cambios a las plantillas.
+
 # Historial de versiones
 
 ## v1.12 — Catálogo y rutinas separados del código

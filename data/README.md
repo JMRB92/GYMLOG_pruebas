@@ -29,3 +29,6 @@ Las **seis rutinas oficiales** se cargan exclusivamente desde este archivo JSON.
 ## Seguridad y copias
 
 Los entrenamientos, rutinas personales, fotos del usuario y progresos permanecen en almacenamiento local. Antes de sustituir una versión de la aplicación, exporta una copia desde Ajustes. Borrar datos del sitio puede borrar el historial. El desbloqueo PRO es local y no ofrece protección criptográfica.
+
+## Fichas de ejercicio en v1.13
+Al tocar un nombre en Biblioteca o en un entrenamiento se abre una ficha. El enlace de imagen procede de la columna de imagen del Excel. La animación / vídeo procede **únicamente** de la columna de vídeo del mismo Excel; si está vacía, se muestra «Vídeo pendiente». Las URL pueden ser GIF (`.gif`), vídeo `.mp4` o una página externa. Los nombres de las rutinas no se modifican automáticamente.

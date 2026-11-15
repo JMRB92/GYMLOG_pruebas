@@ -1,28 +1,17 @@
-# GYM LOG v1.11
+# GYM LOG v1.12
 
-Aplicación web de seguimiento de rutinas y entrenamientos. Los datos se guardan localmente en el navegador.
+Aplicación estática para GitHub Pages. Los datos de referencia son independientes del HTML.
 
-## Cambios de v1.11
-- Rutinas oficiales reconstruidas a partir de las especificaciones originales: nombres, días, ejercicios, orden, series y repeticiones independientes de la biblioteca.
-- Rutina híbrida marcada como exclusiva de GYM LOG PRO. Al desactivar PRO se oculta, sin borrar la rutina ni el historial.
-- Selector «Cambiar ejercicio» con filtro por grupo muscular y búsqueda por nombre; muestra también el equipamiento.
-- Catálogo de referencia en castellano conectado a ExerciseGymGifsDB (1.323 ejercicios declarados por el proyecto), sin copiar los GIF al paquete. Los nombres originales de las rutinas no se sustituyen por los del catálogo.
-- Iconos de instalación propios (192, 512 y maskable), icono Apple y favicon.
-- Manifest y service worker para instalación y caché de la aplicación en navegadores compatibles.
-- Migración de plantillas: se desactivan las plantillas preseleccionadas para que Inicio no fije ninguna automáticamente.
-
-## Archivos
-- `index.html`: aplicación.
-- `data/routines.json`: rutinas oficiales editables.
+- `index.html`: aplicación para publicar en GitHub Pages.
+- `data/ejercicios.xlsx`: base de **143 ejercicios** de Simply Fitness, editable con Excel.
+- `data/routines.json`: **6 rutinas oficiales** editables sin tocar la aplicación.
+- `data/exercises-fallback.json`: copia de emergencia; **no es el catálogo principal**.
 - `config/pro-config.json`: contraseña local de GYM LOG PRO.
-- `manifest.webmanifest`, `sw.js` e iconos: instalación PWA.
-- `GYM_LOG_v1.11_prueba.html`: versión independiente de prueba incluida en el ZIP.
+- `GYM_LOG_v1.12_prueba.html`: prueba independiente (con catálogo y rutinas integrados).
+- `data/README.md`: instrucciones de edición con columnas y recomendaciones.
 
-## Instalación
-Publica el contenido del ZIP en GitHub Pages o en un servidor HTTPS. Abre la web desde Chrome/Edge en Android y usa «Instalar aplicación» o «Añadir a pantalla de inicio». En iPhone/iPad, usa Compartir > Añadir a pantalla de inicio. La instalación PWA necesita HTTPS; abrir el HTML de prueba como archivo local no instala la PWA.
+Para actualizar ejercicios o rutinas, sube a GitHub **solo el archivo modificado en la misma ruta**. La PWA vuelve a leer los archivos de datos al abrirse o recargarse. Para probar el Excel antes de subirlo, usa «Probar otro Excel».
 
-## Biblioteca y medios
-La biblioteca utiliza metadatos en español de `JahelCuadrado/ExerciseGymGifsDB`, consultados desde su CDN público. Los GIF/demostraciones se enlazan externamente y no se copian dentro del paquete. El propio repositorio advierte que no posee los derechos de autor de esos medios; por tanto, la app no redistribuye dichos archivos.
+Importante: el Excel recibido tiene los 143 enlaces de imagen y actualmente **ningún enlace de GIF/vídeo** asignado. Por eso no aparecen vídeos hasta completar la columna F. No se han inventado enlaces ni cambiado nombres de rutina.
 
-## Privacidad y datos
-No hay cuenta ni sincronización automática. Borrar los datos del navegador puede eliminar los registros. Exporta copias de seguridad periódicas.
+No se ha desplegado ni modificado tu repositorio de GitHub.

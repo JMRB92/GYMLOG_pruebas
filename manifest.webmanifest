@@ -1,7 +1,7 @@
 {
   "name": "GYM LOG",
   "short_name": "GYM LOG",
-  "version": "1.14",
+  "version": "1.17",
   "description": "Registra tus rutinas, entrenamientos y progreso.",
   "start_url": "./",
   "scope": "./",

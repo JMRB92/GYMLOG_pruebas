@@ -1,36 +1,24 @@
-# Cambios de GYM LOG
+# GYM LOG v1.17
 
-## v1.14 — Consolidación de rutinas, ejercicios y calculadoras
+- 116 enlaces externos nuevos de demostración y 8 pares de fotos.
+- Las fichas pueden abrir demostraciones de distintas fuentes.
+- Se retiraron imágenes de variantes incompatibles en las fichas revisadas.
 
-- 235 ejercicios (143 anteriores + 92 variantes nuevas) en Excel editable y copia alternativa JSON sincronizada.
-- Selección de fichas por referencia explícita, no por coincidencia de nombre ambiguo. Antiguas rutinas personales y sesiones mantenidas.
-- Las tres rutinas prioritarias revisadas: 29 / 29 / 37 ejercicios; primer plan corregido de cuatro a cinco días.
-- Las tres plantillas restantes vinculadas al nuevo catálogo manteniendo su distribución previa.
-- RIR, series variables, duraciones y ausencia de esquema según documentos; híbrida PRO sigue oculta sin desbloqueo.
-- Eliminadas referencias a fichas externas de ejercicios; modalidades de imagen y vídeo separadas.
-- IMC con campo de edad y explicación de los umbrales de adultos; para menores de 20 años no se aplica la clasificación de adultos. TMB y GET con desglose claro.
-- Cache de la PWA actualizado.
+# GYM LOG v1.15
 
-# Registro de cambios
+- Tres rutinas oficiales: Plan de entrenamiento — 5 días; TABLA DE ENTRENAMIENTO; GYM LOG — Hipertrofia 5 días (solo PRO).
+- Migración que retira plantillas oficiales antiguas, conservando rutinas personales, sesiones y el historial.
+- Día 5 de la rutina PRO: 8 ejercicios, jalón bilateral y dos ejercicios independientes de brazos.
+- Ilustraciones propias offline para press inclinado, press declinado, press plano en máquina, jalón bilateral, elevación lateral en máquina, curl EZ y tríceps en polea con cuerda.
+- Fichas sin notas técnicas sobre vídeos, hoja de datos o recursos pendientes; cuando la imagen falta, se muestra «Sin imagen asignada».
+- Ocultación de la rutina PRO al no estar habilitada sin eliminar el progreso.
+- El catálogo permanece separado y editable por el mantenedor.
 
-## v1.13 — Fichas de ejercicio y calculadoras
-- Los nombres y miniaturas de Biblioteca abren ficha con imagen y vídeo/GIF si el Excel contiene una URL.
-- Acceso a la ficha también desde entrenamiento, plantillas, editor e historial.
-- Se indica explícitamente cuándo no hay material vinculado; sin vídeos inventados ni traducciones de nombres.
-- Nueva sección Calculadoras: GET, TMB e IMC, con fórmulas y unidades métricas/imperiales; procesamiento local.
-- Navegación inferior adaptada a siete secciones, todas visibles en móvil.
-- Catálogo Excel y rutinas JSON siguen externos y editables, sin cambios a las plantillas.
 
-# Historial de versiones
-
-## v1.12 — Catálogo y rutinas separados del código
-- El único catálogo oficial pasa a ser `data/ejercicios.xlsx`, con 143 ejercicios, nombres originales e ilustraciones Simply Fitness.
-- La aplicación interpreta XLSX directamente en el navegador, sin bibliotecas externas, y permite cargar un Excel local para pruebas.
-- Las 6 plantillas oficiales se leen solamente desde `data/routines.json`; se elimina el catálogo y las plantillas predefinidas duplicadas en el código.
-- Se desactiva la importación automática de 1323 ejercicios de otra API y la vinculación aproximada de vídeos para evitar errores.
-- Imágenes en Biblioteca y entrenamiento; enlaces de vídeo únicamente cuando estén rellenados en el Excel.
-- PWA actualizada: descarga de XLSX/JSON con preferencia por la versión actual y respaldo offline.
-- Se conservan rutinas personales, entrenamientos y datos previos del dispositivo.
-
-## v1.11
-Versión de origen con inicio, rutinas, historial, gráfica, PRO local y PWA.
+## v1.16 — Auditoría visual y demostraciones MuscleWiki (2026-11-17)
+- Catálogo de 235 ejercicios revisado. Se sustituyen seis ilustraciones antiguas por versiones mejoradas y se retira la séptima sin sustituto fiable.
+- 203 fichas con imagen asignada y 32 con el mensaje limpio «Sin imagen asignada». No se garantiza disponibilidad de enlaces externos.
+- 56 enlaces individuales revisados de MuscleWiki: se abren en una pestaña externa, sin copiar ni reproducir vídeos en la aplicación.
+- Actualizada la tabla editable de ejercicios, la alternativa JSON y el HTML independiente.
+- Mantenidas tres rutinas oficiales, GYM LOG PRO y los identificadores para proteger los registros existentes.
+- Atribución RepDB requerida para las ilustraciones usadas del catálogo libre: Exercise data by RepDB (repdb.co).

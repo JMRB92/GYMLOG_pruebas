@@ -1,3 +1,10 @@
+# GYM LOG v1.18
+
+- Guardado persistente, importación con previsualización y registro en kg.
+- Herramientas de 1RM, calorías y macros.
+- Temporizador en sesión, calentamiento, historial editable, récords y demostraciones.
+- Catálogo actualizado de 235 ejercicios.
+
 # GYM LOG v1.17
 
 - 116 enlaces externos nuevos de demostración y 8 pares de fotos.

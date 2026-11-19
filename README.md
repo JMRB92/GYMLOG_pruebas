@@ -1,4 +1,4 @@
-# GYM LOG v1.17
+# GYM LOG v1.18
 
 Aplicación web para GitHub Pages. La aplicación guarda los datos en el navegador del dispositivo; descarga una copia desde **Ajustes** antes de actualizar.
 
@@ -22,3 +22,7 @@ Algunas imágenes de otros ejercicios enlazan a sus fuentes online. Cuando no pu
 ### Enlaces y recursos audiovisuales
 
 Las demostraciones se abren en la página de su fuente. Las fotos incorporadas desde Free Exercise DB se enlazan a su origen, se identifican en la ficha y están pendientes de comprobar los derechos de cada fotografía antes de una publicación abierta. RepDB conserva sus propias condiciones y atribución.
+
+## Comprobaciones de la versión
+
+Consulta `REVISION_v1.18.md` para ver las pruebas, los casos límite y los pendientes del catálogo.
